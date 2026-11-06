@@ -1,241 +1,665 @@
 Gemini 4 Argon
-Ran for 23m 43s
+Ran for 52m 5s
 
 Action history
-Thought for 14 seconds
+Thought for 55 seconds
+Read file
+Read 3 files: skills/system_skills/ultra_mode/SKILL.md from line 0 to line 289,skills/system_skills/frontend_design/SKILL.md from line 0 to line 632, and skills/system_skills/gemini_api/SKILL.md from line 0 to line 620
+Read file
+Read 2 files: skills/system_skills/pwa_integration/SKILL.md from line 0 to line 618, and skills/system_skills/computer_use/SKILL.md from line 0 to line 322
 Explored codebase
-Scanned root directory and found 23 files: .aistudio, .env.example, .gitignore, .gmp_cache, .nexcarga-store.json, ARCHITECTURE_HOSTINGER.md, README.md, bun.lock, dev-dist, index.html, metadata.json, nexcarga-app.png, nexcarga-banner.png, nexcarga-control.png, nexcarga-logo.png, nexcarga-overview.png, package.json, public, server.ts, src, supabase, tsconfig.json and vite.config.ts.
+Scanned root directory and found 10 files: .env.example, .gitignore, bun.lock, index.html, metadata.json, package.json, public, src, tsconfig.json and vite.config.ts.
 Read file
-Read 1 file: package.json from line 0 to line 41
-Read file
-Read 1 file: server.ts from line 0 to line 1599
-Read file
-Read 1 file: server.ts from line 1189 to line 2788
+Read 2 files: skills/system_skills/frontend_design/references/3_saas_dashboard.md from line 0 to line 121, and package.json from line 0 to line 36
 Explored codebase
-Scanned supabase and found 1 file: migrations.
-Read file
-Read 1 file: server.ts from line 2314 to line 2818
+Scanned public and found 1 file: assets.
 Explored codebase
-Scanned supabase/migrations and found 3 files: 20261105000001_nexcarga_initial_schema.sql, 20261105000002_nexgrid_and_control_phase2.sql and 20261105000003_auth_profiles_and_nexcarga_trust.sql.
+Scanned public/assets and found 1 file: aistudio.
 Explored codebase
-Scanned src and found 8 files: App.tsx, components, data, hooks, index.css, main.tsx, types and utils.
-Read file
-Read 2 files: supabase/migrations/20261105000001_nexcarga_initial_schema.sql from line 0 to line 455, and supabase/migrations/20261105000002_nexgrid_and_control_phase2.sql from line 0 to line 94
-Read file
-Read 2 files: supabase/migrations/20261105000003_auth_profiles_and_nexcarga_trust.sql from line 0 to line 174, and src/data/initialSeed.ts from line 0 to line 249
-Read file
-Read 1 file: src/data/initialSeed.ts from line 1549 to line 2024
-Ran command
-grep -rnE "fetch\(" src
-src/components/NexCargaControlView.tsx:191:    const res = await fetch(url, {src/components/NexIAPanel.tsx:59:      const res = await fetch('/api/nexia/chat', {src/components/ModalsAndForms.tsx:104:        fetch('/api/nexgrid/geocode', {src/components/ModalsAndForms.tsx:116:        fetch('/api/nexgrid/geocode', {src/components/UserProfileAndTrustView.tsx:238:      const res = await fetch('/api/profile/preferences', {src/components/UserProfileAndTrustView.tsx:513:      const res = await fetch('/api/profile/account-settings', {src/components/UserProfileAndTrustView.tsx:907:    fetch('/api/organization/me')src/components/UserProfileAndTrustView.tsx:920:      const res = await fetch('/api/profile/me', {src/components/UserProfileAndTrustView.tsx:953:      const res = await fetch('/api/profile/avatar', {src/components/UserProfileAndTrustView.tsx:978:      const res = await fetch('/api/profile/security', {src/components/UserProfileAndTrustView.tsx:1600:      const res = await fetch('/api/trust/request-review', {src/App.tsx:115:      const res = await fetch('/api/bootstrap');src/App.tsx:156:      const res = await fetch('/api/auth/session', {src/App.tsx:174:      const res = await fetch('/api/auth/logout', {src/App.tsx:215:    const res = await fetch('/api/freights', {src/App.tsx:237:    const res = await fetch('/api/proposals', {src/App.tsx:255:    const res = await fetch(`/api/proposals/${proposalId}/decision`, {src/App.tsx:274:    const res = await fetch(`/api/operations/${operationId}/status`, {src/App.tsx:291:    const res = await fetch('/api/documents', {src/App.tsx:307:    const res = await fetch(`/api/documents/${docId}/verify`, {src/App.tsx:331:    const res = await fetch('/api/admin/commercial-settings', {
-Read file
-Read 1 file: src/App.tsx
-Read file
-Read 2 files: src/App.tsx from line 109 to line 349, and src/types/nexcarga.ts from line 0 to line 159
-Thought for 2 minutes 31 seconds
-Edited 1 file
-src/utils/authSecurity.ts
-Thought for 25 seconds
-Edited 1 file
-src/utils/supabaseClient.ts
-Read file
-Read 1 file: src/main.tsx from line 0 to line 25
-Thought for 11 seconds
-Read file
-Read 1 file: src/App.tsx from line 579 to line 649
-Read file
-Read 1 file: src/App.tsx from line 489 to line 579
-Thought for 30 seconds
-Read file
-Read 1 file: server.ts from line 304 to line 734
-Ran command
-grep -n "getActiveProfile" server.ts
-310:function getActiveProfile(req?: Request, roleOverride?: UserRole): ActiveProfileSession {431:  const profile = getActiveProfile();463:    const activeProfile = getActiveProfile(req);658:      activeProfile: getActiveProfile(undefined, found.role),678:    res.json({ activeProfile: getActiveProfile(undefined, found.role) });682:    const profile = getActiveProfile(req);702:    const profile = getActiveProfile(req);723:    const profile = getActiveProfile(req);850:      activeProfile: getActiveProfile(req),856:    const profile = getActiveProfile(req);918:    const profile = getActiveProfile(req);979:    const profile = getActiveProfile(req);1013:    const profile = getActiveProfile(req);1059:    const profile = getActiveProfile(req);1072:    const profile = getActiveProfile(req);1091:    const profile = getActiveProfile(req);1154:    const profile = getActiveProfile(req);1348:    const profile = getActiveProfile();1375:    const profile = getActiveProfile();1529:    const profile = getActiveProfile();1611:    const profile = getActiveProfile();1801:    const profile = getActiveProfile();1859:    const profile = getActiveProfile(req);1934:    const profile = getActiveProfile(req);2717:    const profile = getActiveProfile();
+Scanned src and found 3 files: App.tsx, index.css and main.tsx.
+Explored codebase
+Scanned public/assets/aistudio and found 2 files: nexcarga_assinatura_carrossel_pack_f2abd158.zip and nexcarga_white_dark_design_pack_41f3a0d3.zip.
 Thought for 38 seconds
-Read file
-Read 2 files: server.ts from line 69 to line 119, and server.ts from line 1339 to line 1864
-Read file
-Read 1 file: server.ts from line 729 to line 1199
-Thought for 6 minutes 3 seconds
-Edited 1 file
-server.ts
-Read file
-Read 1 file: src/utils/logisticsRules.test.ts from line 0 to line 316
-Read file
-Read 1 file: src/App.tsx from line 1054 to line 1366
-Read file
-Read 1 file: src/components/ModuleViews.tsx from line 0 to line 59
-Read file
-Read 1 file: src/components/ModuleViews.tsx from line 59 to line 99
-Read file
-Read 1 file: src/components/ModuleViews.tsx from line 969 to line 1050
-Thought for 7 seconds
-Read file
-Read 1 file: src/components/ModuleViews.tsx from line 99 to line 169
-Thought for 21 seconds
-Edited 1 file
-src/main.tsx
-Edited 1 file
-src/types/nexcarga.ts
-Edited 1 file
-src/components/ModuleViews.tsx
-Thought for 32 seconds
-Edited 1 file
-src/App.tsx
-Thought for 30 seconds
-Edited 1 file
-src/utils/logisticsRules.test.ts
 Ran command
-npx --yes tsx --test src/utils/logisticsRules.test.ts
-<truncated 23 bytes>
-xpected values to be strictly equal:                undefined !== 401              code: 'ERR_ASSERTION'      name: 'AssertionError'      expected: 401      operator: 'strictEqual'      stack: |-        TestContext.<anonymous> (/app/applet/src/utils/logisticsRules.test.ts:364:12)        Test.runInAsyncScope (node:async_hooks:214:14)        Test.run (node:internal/test_runner/test:1047:25)        Suite.processPendingSubtests (node:internal/test_runner/test:744:18)        Test.postRun (node:internal/test_runner/test:1173:19)        Test.run (node:internal/test_runner/test:1101:12)        async Suite.processPendingSubtests (node:internal/test_runner/test:744:7)      ...    # Subtest: Teste 4 — Usuário autenticado: valida JWT assinado do Supabase e extrai sub (UUID de auth.users)    not ok 4 - Teste 4 — Usuário autenticado: valida JWT assinado do Supabase e extrai sub (UUID de auth.users)      ---      duration_ms: 0.683763      type: 'test'      location: '/app/applet/src/utils/logisticsRules.test.ts:368:3'      failureType: 'testCodeFailure'      error: |-        Expected values to be strictly equal:                false !== true              code: 'ERR_ASSERTION'      name: 'AssertionError'      expected: true      actual: false      operator: 'strictEqual'      stack: |-        TestContext.<anonymous> (/app/applet/src/utils/logisticsRules.test.ts:376:12)        Test.runInAsyncScope (node:async_hooks:214:14)        Test.run (node:internal/test_runner/test:1047:25)        Suite.processPendingSubtests (node:internal/test_runner/test:744:18)        Test.postRun (node:internal/test_runner/test:1173:19)        Test.run (node:internal/test_runner/test:1101:12)        async Suite.processPendingSubtests (node:internal/test_runner/test:744:7)      ...    # Subtest: Teste 5 — Tentativa de assumir perfil administrativo: bloqueia escalonamento de privilégio para SUPER_ADMIN (403)    not ok 5 - Teste 5 — Tentativa de assumir perfil administrativo: bloqueia escalonamento de privilégio para SUPER_ADMIN (403)      ---      duration_ms: 39.298059      type: 'test'      location: '/app/applet/src/utils/logisticsRules.test.ts:384:3'      failureType: 'testCodeFailure'      error: |-        The expression evaluated to a falsy value:                  assert.ok(escalationAttempt.error.includes('escalonamento de privilégio'))              code: 'ERR_ASSERTION'      name: 'AssertionError'      expected: true      actual: false      operator: '=='      stack: |-        TestContext.<anonymous> (/app/applet/src/utils/logisticsRules.test.ts:393:14)        Test.runInAsyncScope (node:async_hooks:214:14)        Test.run (node:internal/test_runner/test:1047:25)        Suite.processPendingSubtests (node:internal/test_runner/test:744:18)        Test.postRun (node:internal/test_runner/test:1173:19)        Test.run (node:internal/test_runner/test:1101:12)        async Suite.processPendingSubtests (node:internal/test_runner/test:744:7)      ...    # Subtest: Teste 6 — Tentativa de acessar outra organização: bloqueia acesso a org-expresso-minas por usuário de org-vale-sa (403)    not ok 6 - Teste 6 — Tentativa de acessar outra organização: bloqueia acesso a org-expresso-minas por usuário de org-vale-sa (403)      ---      duration_ms: 1.268597      type: 'test'      location: '/app/applet/src/utils/logisticsRules.test.ts:397:3'      failureType: 'testCodeFailure'      error: |-        Expected values to be strictly equal:        + actual - expected                + undefined        - false              code: 'ERR_ASSERTION'      name: 'AssertionError'      expected: false      operator: 'strictEqual'      stack: |-        TestContext.<anonymous> (/app/applet/src/utils/logisticsRules.test.ts:403:12)        Test.runInAsyncScope (node:async_hooks:214:14)        Test.run (node:internal/test_runner/test:1047:25)        Suite.processPendingSubtests (node:internal/test_runner/test:744:18)        Test.postRun (node:internal/test_runner/test:1173:19)        Test.run (node:internal/test_runner/test:1101:12)        async Suite.processPendingSubtests (node:internal/test_runner/test:744:7)      ...    # Subtest: Teste 7 — Tentativa de acessar perfil de outro usuário: bloqueia leitura/edição de perfil de terceiro (403)    not ok 7 - Teste 7 — Tentativa de acessar perfil de outro usuário: bloqueia leitura/edição de perfil de terceiro (403)      ---      duration_ms: 0.672802      type: 'test'      location: '/app/applet/src/utils/logisticsRules.test.ts:416:3'      failureType: 'testCodeFailure'      error: |-        Expected values to be strictly equal:        + actual - expected                + undefined        - false              code: 'ERR_ASSERTION'      name: 'AssertionError'      expected: false      operator: 'strictEqual'      stack: |-        TestContext.<anonymous> (/app/applet/src/utils/logisticsRules.test.ts:424:12)        Test.runInAsyncScope (node:async_hooks:214:14)        Test.run (node:internal/test_runner/test:1047:25)        Suite.processPendingSubtests (node:internal/test_runner/test:744:18)        Test.postRun (node:internal/test_runner/test:1173:19)        Test.run (node:internal/test_runner/test:1101:12)        async Suite.processPendingSubtests (node:internal/test_runner/test:744:7)      ...    # Subtest: Teste 8 — Proteção de dados administrativos: distingue estritamente roles comuns de roles administrativas    not ok 8 - Teste 8 — Proteção de dados administrativos: distingue estritamente roles comuns de roles administrativas      ---      duration_ms: 0.263084      type: 'test'      location: '/app/applet/src/utils/logisticsRules.test.ts:438:3'      failureType: 'testCodeFailure'      error: 'isAdminRole is not a function'      code: 'ERR_TEST_FAILURE'      name: 'TypeError'      stack: |-        TestContext.<anonymous> (/app/applet/src/utils/logisticsRules.test.ts:439:18)        Test.runInAsyncScope (node:async_hooks:214:14)        Test.run (node:internal/test_runner/test:1047:25)        Suite.processPendingSubtests (node:internal/test_runner/test:744:18)        Test.postRun (node:internal/test_runner/test:1173:19)        Test.run (node:internal/test_runner/test:1101:12)        async Suite.processPendingSubtests (node:internal/test_runner/test:744:7)      ...    # Subtest: Teste 9 — Troca autorizada de organização: permite alternar entre organizações vinculadas em organization_members (200)    ok 9 - Teste 9 — Troca autorizada de organização: permite alternar entre organizações vinculadas em organization_members (200)      ---      duration_ms: 0.328491      type: 'test'      ...    # Subtest: Teste 10 — Logout e invalidação de sessão: revoga jti do JWT impedindo reutilização do token encerrado (401)    not ok 10 - Teste 10 — Logout e invalidação de sessão: revoga jti do JWT impedindo reutilização do token encerrado (401)      ---      duration_ms: 0.7602      type: 'test'      location: '/app/applet/src/utils/logisticsRules.test.ts:467:3'      failureType: 'testCodeFailure'      error: |-        Expected values to be strictly equal:                false !== true              code: 'ERR_ASSERTION'      name: 'AssertionError'      expected: true      actual: false      operator: 'strictEqual'      stack: |-        TestContext.<anonymous> (/app/applet/src/utils/logisticsRules.test.ts:475:12)        Test.runInAsyncScope (node:async_hooks:214:14)        Test.run (node:internal/test_runner/test:1047:25)        Suite.processPendingSubtests (node:internal/test_runner/test:744:18)        Test.postRun (node:internal/test_runner/test:1173:19)        Test.run (node:internal/test_runner/test:1101:12)        async Suite.processPendingSubtests (node:internal/test_runner/test:744:7)      ...    1..10not ok 2 - ETAPA 01 — Autenticação Supabase JWT, Autorização RBAC e Isolamento Multi-Tenant (10 Testes Obrigatórios)  ---  duration_ms: 50.546094  type: 'suite'  location: '/app/applet/src/utils/logisticsRules.test.ts:316:1'  failureType: 'subtestsFailed'  error: '9 subtests failed'  code: 'ERR_TEST_FAILURE'  ...1..2# tests 25# suites 2# pass 16# fail 9# cancelled 0# skipped 0# todo 0# duration_ms 878.380781
-Built
-Ran quality control
+mkdir -p public/assets/nexcarga/carrossel public/assets/nexcarga/design && unzip -o public/assets/aistudio/nexcarga_assinatura_carrossel_pack_f2abd158.zip -d public/assets/nexcarga/carrossel && unzip -o public/assets/aistudio/nexcarga_white_dark_design_pack_41f3a0d3.zip -d public/assets/nexcarga/design && ls -la public/assets/nexcarga/carrossel public/assets/nexcarga/design
+Archive:  public/assets/aistudio/nexcarga_assinatura_carrossel_pack_f2abd158.zip  inflating: public/assets/nexcarga/carrossel/01-pagina-assinaturas.png    inflating: public/assets/nexcarga/carrossel/02-carrossel-frontend-completo.png    inflating: public/assets/nexcarga/carrossel/03-carrossel-slide-empresa.png    inflating: public/assets/nexcarga/carrossel/04-carrossel-slide-conexao-nexcarga.png    inflating: public/assets/nexcarga/carrossel/05-carrossel-slide-motorista-oportunidades.png  Archive:  public/assets/aistudio/nexcarga_white_dark_design_pack_41f3a0d3.zip  inflating: public/assets/nexcarga/design/01-login-exclusive-dark.png    inflating: public/assets/nexcarga/design/02-dashboard-empresa-dark.png    inflating: public/assets/nexcarga/design/03-dashboard-empresa-white.png    inflating: public/assets/nexcarga/design/04-dashboard-transportador-dark.png    inflating: public/assets/nexcarga/design/05-dashboard-transportador-white.png    inflating: public/assets/nexcarga/design/06-seletor-tema-white-dark.png    inflating: public/assets/nexcarga/design/07-selo-verificado-uso-funcional.png    inflating: public/assets/nexcarga/design/08-nexia-e-nexia-verify.png    inflating: public/assets/nexcarga/design/09-dashboards-mobile-white-dark.png  public/assets/nexcarga/carrossel:total 1704drwxr-xr-x 1 root root    140 Nov  6 18:12 .drwxr-xr-x 1 root root     80 Nov  6 18:12 ..-rw-r--r-- 1 root root 841772 Nov  6 17:43 01-pagina-assinaturas.png-rw-r--r-- 1 root root 519062 Nov  6 17:43 02-carrossel-frontend-completo.png-rw-r--r-- 1 root root 115303 Nov  6 17:43 03-carrossel-slide-empresa.png-rw-r--r-- 1 root root 142162 Nov  6 17:43 04-carrossel-slide-conexao-nexcarga.png-rw-r--r-- 1 root root 125306 Nov  6 17:43 05-carrossel-slide-motorista-oportunidades.pngpublic/assets/nexcarga/design:total 1669drwxr-xr-x 1 root root    220 Nov  6 18:12 .drwxr-xr-x 1 root root     80 Nov  6 18:12 ..-rw-r--r-- 1 root root 362918 Nov  6 17:36 01-login-exclusive-dark.png-rw-r--r-- 1 root root 229360 Nov  6 17:36 02-dashboard-empresa-dark.png-rw-r--r-- 1 root root 210570 Nov  6 17:36 03-dashboard-empresa-white.png-rw-r--r-- 1 root root 225321 Nov  6 17:36 04-dashboard-transportador-dark.png-rw-r--r-- 1 root root 217824 Nov  6 17:36 05-dashboard-transportador-white.png-rw-r--r-- 1 root root  98985 Nov  6 17:36 06-seletor-tema-white-dark.png-rw-r--r-- 1 root root 137714 Nov  6 17:36 07-selo-verificado-uso-funcional.png-rw-r--r-- 1 root root 128213 Nov  6 17:36 08-nexia-e-nexia-verify.png-rw-r--r-- 1 root root  96014 Nov  6 17:36 09-dashboards-mobile-white-dark.png
+Responded
+Thought for 46 seconds
 Read file
-Read 1 file: src/utils/authSecurity.ts from line 0 to line 604
-Edited 1 file
-src/utils/logisticsRules.test.ts
-Ran command
-npx --yes tsx --test src/utils/logisticsRules.test.ts
-TAP version 13# Subtest: NEXCARGA — Regras Comerciais, NEXGRID, Perfil e NEXCARGA TRUST    # Subtest: Formata valores monetários no padrão brasileiro R$ 1.234,56 e datas DD/MM/AAAA    ok 1 - Formata valores monetários no padrão brasileiro R$ 1.234,56 e datas DD/MM/AAAA      ---      duration_ms: 25.606975      type: 'test'      ...    # Subtest: Valida CPF, CNPJ e CEP brasileiros    ok 2 - Valida CPF, CNPJ e CEP brasileiros      ---      duration_ms: 0.550702      type: 'test'      ...    # Subtest: Calcula taxa padrão da plataforma de 3,5% (1,75% contratante + 1,75% prestador)    ok 3 - Calcula taxa padrão da plataforma de 3,5% (1,75% contratante + 1,75% prestador)      ---      duration_ms: 0.35246      type: 'test'      ...    # Subtest: Valida matematicamente a divisão da regra de taxa (soma contratante + prestador = total)    ok 4 - Valida matematicamente a divisão da regra de taxa (soma contratante + prestador = total)      ---      duration_ms: 0.480068      type: 'test'      ...    # Subtest: Gera snapshot imutável de taxa no contrato sem sofrer alteração retroativa    ok 5 - Gera snapshot imutável de taxa no contrato sem sofrer alteração retroativa      ---      duration_ms: 0.775855      type: 'test'      ...    # Subtest: Geocodifica endereços brasileiros no servidor e valida coordenadas (Manhuaçu/MG -> Vitória/ES)    ok 6 - Geocodifica endereços brasileiros no servidor e valida coordenadas (Manhuaçu/MG -> Vitória/ES)      ---      duration_ms: 0.555472      type: 'test'      ...    # Subtest: Filtra oportunidades no Radar NEXGRID por todos os parâmetros avançados (veículo, implemento, peso, valor, UF)    ok 7 - Filtra oportunidades no Radar NEXGRID por todos os parâmetros avançados (veículo, implemento, peso, valor, UF)      ---      duration_ms: 0.737423      type: 'test'      ...    # Subtest: Aplica visibilidade por perfil e isolamento multi-tenant no NEXGRID    ok 8 - Aplica visibilidade por perfil e isolamento multi-tenant no NEXGRID      ---      duration_ms: 0.386173      type: 'test'      ...    # Subtest: Aplica RBAC administrativo por princípio do menor privilégio no NexCarga Control    ok 9 - Aplica RBAC administrativo por princípio do menor privilégio no NexCarga Control      ---      duration_ms: 0.484699      type: 'test'      ...    # Subtest: Avalia política de inadimplência preservando operações logísticas em andamento e respeitando concessão manual    ok 10 - Avalia política de inadimplência preservando operações logísticas em andamento e respeitando concessão manual      ---      duration_ms: 0.654409      type: 'test'      ...    # Subtest: Calcula todos os indicadores reais do dashboard NexCarga Control sem valores aleatórios    ok 11 - Calcula todos os indicadores reais do dashboard NexCarga Control sem valores aleatórios      ---      duration_ms: 0.722073      type: 'test'      ...    # Subtest: Calcula custos logísticos no Motor de Custos com diesel, pedágio, diária e margem    ok 12 - Calcula custos logísticos no Motor de Custos com diesel, pedágio, diária e margem      ---      duration_ms: 5.82624      type: 'test'      ...    # Subtest: NEXCARGA TRUST — Mapeia documentos para os 6 buckets privados oficiais e impede autoaprovação    ok 13 - NEXCARGA TRUST — Mapeia documentos para os 6 buckets privados oficiais e impede autoaprovação      ---      duration_ms: 0.657078      type: 'test'      ...    # Subtest: NEXCARGA TRUST — Concede selo VERIFIED somente com todos documentos vigentes e suspende para EXPIRED se houver documento vencido    ok 14 - NEXCARGA TRUST — Concede selo VERIFIED somente com todos documentos vigentes e suspende para EXPIRED se houver documento vencido      ---      duration_ms: 0.706441      type: 'test'      ...    # Subtest: Selo Oficial NEXCARGA VERIFICADO — PNG RGBA real com fundo transparente (colorType 6) e interior preservado    ok 15 - Selo Oficial NEXCARGA VERIFICADO — PNG RGBA real com fundo transparente (colorType 6) e interior preservado      ---      duration_ms: 52.321775      type: 'test'      ...    1..15ok 1 - NEXCARGA — Regras Comerciais, NEXGRID, Perfil e NEXCARGA TRUST  ---  duration_ms: 93.31994  type: 'suite'  ...# Subtest: ETAPA 01 — Autenticação Supabase JWT, Autorização RBAC e Isolamento Multi-Tenant (10 Testes Obrigatórios)    # Subtest: Teste 1 — Acesso sem autenticação: rejeita requisição sem cabeçalho Authorization: Bearer (MISSING_TOKEN / 401)    ok 1 - Teste 1 — Acesso sem autenticação: rejeita requisição sem cabeçalho Authorization: Bearer (MISSING_TOKEN / 401)      ---      duration_ms: 0.718742      type: 'test'      ...    # Subtest: Teste 2 — Token inválido: rejeita JWT adulterado ou com assinatura inválida (INVALID_SIGNATURE / 401)    ok 2 - Teste 2 — Token inválido: rejeita JWT adulterado ou com assinatura inválida (INVALID_SIGNATURE / 401)      ---      duration_ms: 4.213346      type: 'test'      ...    # Subtest: Teste 3 — Token expirado: rejeita JWT com claim exp vencido (TOKEN_EXPIRED / 401)    ok 3 - Teste 3 — Token expirado: rejeita JWT com claim exp vencido (TOKEN_EXPIRED / 401)      ---      duration_ms: 0.628187      type: 'test'      ...    # Subtest: Teste 4 — Usuário autenticado: valida JWT assinado do Supabase e extrai sub (UUID de auth.users) (200)    ok 4 - Teste 4 — Usuário autenticado: valida JWT assinado do Supabase e extrai sub (UUID de auth.users) (200)      ---      duration_ms: 0.625737      type: 'test'      ...    # Subtest: Teste 5 — Tentativa de assumir perfil administrativo: bloqueia escalonamento de privilégio para SUPER_ADMIN (403)    ok 5 - Teste 5 — Tentativa de assumir perfil administrativo: bloqueia escalonamento de privilégio para SUPER_ADMIN (403)      ---      duration_ms: 0.8558      type: 'test'      ...    # Subtest: Teste 6 — Tentativa de acessar outra organização: bloqueia acesso a org-expresso-minas por usuário de org-vale-sa (403)    ok 6 - Teste 6 — Tentativa de acessar outra organização: bloqueia acesso a org-expresso-minas por usuário de org-vale-sa (403)      ---      duration_ms: 0.514601      type: 'test'      ...    # Subtest: Teste 7 — Tentativa de acessar perfil de outro usuário: bloqueia leitura/edição de perfil de terceiro (403)    ok 7 - Teste 7 — Tentativa de acessar perfil de outro usuário: bloqueia leitura/edição de perfil de terceiro (403)      ---      duration_ms: 0.461366      type: 'test'      ...    # Subtest: Teste 8 — Proteção de dados administrativos: distingue estritamente roles comuns de roles administrativas    ok 8 - Teste 8 — Proteção de dados administrativos: distingue estritamente roles comuns de roles administrativas      ---      duration_ms: 0.244994      type: 'test'      ...    # Subtest: Teste 9 — Troca autorizada de organização: permite alternar entre organizações vinculadas em organization_members (200)    ok 9 - Teste 9 — Troca autorizada de organização: permite alternar entre organizações vinculadas em organization_members (200)      ---      duration_ms: 0.531501      type: 'test'      ...    # Subtest: Teste 10 — Logout e invalidação de sessão: revoga jti do JWT impedindo reutilização do token encerrado (TOKEN_REVOKED / 401)    ok 10 - Teste 10 — Logout e invalidação de sessão: revoga jti do JWT impedindo reutilização do token encerrado (TOKEN_REVOKED / 401)      ---      duration_ms: 0.6814      type: 'test'      ...    1..10ok 2 - ETAPA 01 — Autenticação Supabase JWT, Autorização RBAC e Isolamento Multi-Tenant (10 Testes Obrigatórios)  ---  duration_ms: 10.253199  type: 'suite'  ...1..2# tests 25# suites 2# pass 25# fail 0# cancelled 0# skipped 0# todo 0# duration_ms 636.16529
-Built
-Ran quality control
-Thought for 8 seconds
-Restarted dev server
-Thought for 29 seconds
-Ran command
-npx --yes tsx -e ' import assert from "node:assert/strict"; import { issueSupabaseSessionJwt } from "./src/utils/authSecurity"; const BASE = "http://localhost:3000"; async function runLiveHttpSecurityTests() { console.log("=== EXECUTANDO OS 10 TESTES OBRIGATÓRIOS CONTRA HTTP://LOCALHOST:3000 ==="); // Teste 1 — Acesso sem autenticação const t1 = await fetch(`${BASE}/api/bootstrap`); const t1Json = await t1.json(); console.log("Teste 1 (Sem token -> /api/bootstrap):", t1.status, t1Json.code); assert.equal(t1.status, 401); assert.equal(t1Json.code, "MISSING_TOKEN"); // Teste 2 — Token inválido const t2 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: "Bearer token.invalido.adulterado" }, }); const t2Json = await t2.json(); console.log("Teste 2 (Token inválido -> /api/bootstrap):", t2.status, t2Json.code); assert.equal(t2.status, 401); assert.equal(t2Json.code, "INVALID_SIGNATURE"); // Teste 3 — Token expirado const expired = issueSupabaseSessionJwt({ authUserId: "00000000-0000-4000-a000-000000000001", email: "carlos.mendes@valesa.com.br", expiresInSeconds: -60, }); const t3 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${expired.accessToken}` }, }); const t3Json = await t3.json(); console.log("Teste 3 (Token expirado -> /api/bootstrap):", t3.status, t3Json.code); assert.equal(t3.status, 401); assert.equal(t3Json.code, "TOKEN_EXPIRED"); // Teste 4 — Usuário autenticado (Login via /api/auth/login) const loginRes = await fetch(`${BASE}/api/auth/login`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: "carlos.mendes@valesa.com.br" }), }); assert.equal(loginRes.status, 200); const loginData = await loginRes.json(); const validJwt = loginData.session.accessToken; const t4 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${validJwt}` }, }); const t4Json = await t4.json(); console.log("Teste 4 (Usuário autenticado -> /api/bootstrap):", t4.status, t4Json.activeProfile.userId, t4Json.activeProfile.authUserId); assert.equal(t4.status, 200); assert.equal(t4Json.activeProfile.authUserId, "00000000-0000-4000-a000-000000000001"); assert.equal(t4Json.activeProfile.role, "COMPANY"); // Teste 5 — Tentativa de assumir perfil administrativo (escalonamento de privilégio) const t5a = await fetch(`${BASE}/api/auth/switch-role`, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ role: "SUPER_ADMIN", organizationId: "org-pupa-labs" }), }); const t5aJson = await t5a.json(); console.log("Teste 5a (Escalonamento via /api/auth/switch-role para SUPER_ADMIN):", t5a.status, t5aJson.reasonCode); assert.equal(t5a.status, 403); assert.equal(t5aJson.reasonCode, "PRIVILEGE_ESCALATION_BLOCKED"); const t5b = await fetch(`${BASE}/api/profile/personal`, { method: "PUT", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ fullName: "Carlos Mendes", phone: "(33) 99912-4400", jobTitle: "Diretor", city: "Manhuaçu", uf: "MG", role: "SUPER_ADMIN", }), }); const t5bJson = await t5b.json(); console.log("Teste 5b (Tampering de role no body de /api/profile/personal):", t5b.status, t5bJson.code); assert.equal(t5b.status, 403); assert.equal(t5bJson.code, "IDENTITY_OR_PRIVILEGE_TAMPERING_BLOCKED"); // Teste 6 — Tentativa de acessar outra organização const t6a = await fetch(`${BASE}/api/organization/org-expresso-minas`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6a (Acesso cruzado GET /api/organization/org-expresso-minas):", t6a.status); assert.equal(t6a.status, 403); const t6b = await fetch(`${BASE}/api/trust/org-driver-joao`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6b (Acesso cruzado GET /api/trust/org-driver-joao):", t6b.status); assert.equal(t6b.status, 403); const t6c = await fetch(`${BASE}/api/documents/doc-cnh-joao`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6c (Acesso cruzado GET /api/documents/doc-cnh-joao):", t6c.status); assert.equal(t6c.status, 403); // Teste 7 — Tentativa de acessar perfil de outro usuário const t7 = await fetch(`${BASE}/api/profile/usr-joao-driver`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 7 (Acesso a perfil de terceiro GET /api/profile/usr-joao-driver):", t7.status); assert.equal(t7.status, 403); // Teste 8 — Proteção de dados administrativos console.log("Teste 8a (adminControl oculto no /api/bootstrap para COMPANY):", t4Json.adminControl); assert.equal(t4Json.adminControl, null); const t8b = await fetch(`${BASE}/api/admin/commercial-settings`, { method: "PUT", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ companyFeePercent: 0, providerFeePercent: 0, freeTrialDays: 90, defaultPartnerCommissionPercent: 50, }), }); console.log("Teste 8b (Bloqueio de rota administrativa PUT /api/admin/commercial-settings):", t8b.status); assert.equal(t8b.status, 403); // Teste 9 — Troca autorizada de organização (Carlos possui vínculo em org-vale-sa e org-cafe-matas) const t9 = await fetch(`${BASE}/api/auth/switch-role`, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ organizationId: "org-cafe-matas", role: "COMPANY" }), }); const t9Json = await t9.json(); console.log("Teste 9 (Troca autorizada de organização para org-cafe-matas):", t9.status, t9Json.activeProfile?.organizationId); assert.equal(t9.status, 200); assert.equal(t9Json.activeProfile.organizationId, "org-cafe-matas"); // Teste 10 — Logout e invalidação de sessão const t10Logout = await fetch(`${BASE}/api/auth/logout`, { method: "POST", headers: { Authorization: `Bearer ${validJwt}` }, }); assert.equal(t10Logout.status, 200); const t10Reuse = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${validJwt}` }, }); const t10ReuseJson = await t10Reuse.json(); console.log("Teste 10 (Reuso de token após logout -> /api/bootstrap):", t10Reuse.status, t10ReuseJson.code); assert.equal(t10Reuse.status, 401); assert.equal(t10ReuseJson.code, "TOKEN_REVOKED"); console.log("=== TODOS OS 10 TESTES HTTP REAIS APROVADOS COM SUCESSO ==="); } runLiveHttpSecurityTests().catch((err) => { console.error(err); process.exit(1); }); '
-=== EXECUTANDO OS 10 TESTES OBRIGATÓRIOS CONTRA HTTP://LOCALHOST:3000 ===Teste 1 (Sem token -> /api/bootstrap): 401 MISSING_TOKENTeste 2 (Token inválido -> /api/bootstrap): 401 INVALID_SIGNATURETeste 3 (Token expirado -> /api/bootstrap): 401 TOKEN_EXPIREDAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:401 !== 200    at runLiveHttpSecurityTests ([eval]:57:25)    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {  generatedMessage: true,  code: 'ERR_ASSERTION',  actual: 401,  expected: 200,  operator: 'strictEqual',  diff: 'simple'}
+Read 7 files: public/assets/nexcarga/carrossel/01-pagina-assinaturas.png,public/assets/nexcarga/carrossel/02-carrossel-frontend-completo.png,public/assets/nexcarga/design/01-login-exclusive-dark.png,public/assets/nexcarga/design/02-dashboard-empresa-dark.png,public/assets/nexcarga/design/03-dashboard-empresa-white.png,public/assets/nexcarga/design/04-dashboard-transportador-dark.png, and public/assets/nexcarga/design/05-dashboard-transportador-white.png
+Thought for 34 seconds
 Read file
-Read 1 file: server.ts from line 224 to line 274
-Read file
-Read 1 file: server.ts from line 274 to line 449
-Read file
-Read 1 file: server.ts from line 449 to line 559
-Read file
-Read 1 file: server.ts from line 559 to line 669
-Read file
-Read 1 file: server.ts from line 669 to line 724
-Thought for 8 seconds
-Ran command
-grep -rnE "INITIAL_USER_PROFILES|email:|authUserId:" src/data/initialSeed.ts
-31:    authUserId: '00000000-0000-4000-a000-000000000001',33:    email: 'carlos.mendes@construtoravale.com.br',51:    authUserId: '00000000-0000-4000-a000-000000000002',53:    email: 'joaobatista.tac@gmail.com',71:    authUserId: '00000000-0000-4000-a000-000000000003',73:    email: 'operacoes@expressozonadamata.com.br',91:    authUserId: '00000000-0000-4000-a000-000000000004',93:    email: 'deivid@pupalabs.com.br',111:    authUserId: '00000000-0000-4000-a000-000000000005',113:    email: 'marina.verify@nexcarga.com.br',131:    authUserId: '00000000-0000-4000-a000-000000000006',133:    email: 'roberto.financeiro@nexcarga.com.br',1221:    email: 'carlos.mendes@construtoravale.com.br',1239:    email: 'joaobatista.tac@gmail.com',1257:    email: 'operacoes@expressozonadamata.com.br',1275:    email: 'logistica@cafematasdeminas.com.br',1293:    email: 'financeiro@transriolog.com.br',1312:    email: 'deivid@pupalabs.com.br',1330:    email: 'marina.verify@nexcarga.com.br',1348:    email: 'roberto.financeiro@nexcarga.com.br',1796:export const INITIAL_USER_PROFILES: UserProfileAccount[] = AVAILABLE_PROFILES.map((p) => ({1798:  authUserId: p.authUserId || `auth-${p.userId}`,1800:  email: p.email || `${p.userId}@nexcarga.com.br`,
-Thought for 8 seconds
-Read file
-Read 1 file: src/utils/supabaseClient.ts from line 0 to line 179
-Thought for 14 seconds
+Read 7 files: public/assets/nexcarga/carrossel/03-carrossel-slide-empresa.png,public/assets/nexcarga/carrossel/04-carrossel-slide-conexao-nexcarga.png,public/assets/nexcarga/carrossel/05-carrossel-slide-motorista-oportunidades.png,public/assets/nexcarga/design/06-seletor-tema-white-dark.png,public/assets/nexcarga/design/07-selo-verificado-uso-funcional.png,public/assets/nexcarga/design/08-nexia-e-nexia-verify.png, and public/assets/nexcarga/design/09-dashboards-mobile-white-dark.png
+Thought for 1 minute 39 seconds
+Installed 3 packages
+Package @google/genai@latest
+Package react-router-dom
+Package vite-plugin-pwa
 Edited 2 files
+metadata.json
+.env.example
+Read file
+Read 1 file: package.json from line 0 to line 38
+Thought for 1 minute 17 seconds
+Edited 5 files
+package.json
+index.html
+tsconfig.json
+vite.config.ts
+src/index.css
+Thought for 2 minutes 29 seconds
+Edited 3 files
+public/icon.svg
+supabase/migrations/0001_nexcarga_schema_and_rls.sql
+ARCHITECTURE.md
+Thought for 2 minutes 49 seconds
+Edited 3 files
+src/domain/catalogs.ts
+src/domain/rules.ts
+src/domain/rules.test.ts
+Thought for 2 minutes 18 seconds
+Edited 1 file
+src/server/store.ts
+Thought for 2 minutes 56 seconds
+Edited 1 file
 server.ts
+Thought for 2 minutes 56 seconds
+Edited 2 files
+src/components/BrandElements.tsx
+src/components/InstitutionalAndPlans.tsx
+Thought for 4 minutes 42 seconds
+Edited 2 files
+src/components/RoleDashboards.tsx
+src/components/OperationsWorkspace.tsx
+Thought for 4 minutes 55 seconds
+Edited 2 files
+src/components/GovernanceAndAI.tsx
 src/App.tsx
-Restarted dev server
-Thought for 26 seconds
+Thought for 53 seconds
 Ran command
-npx --yes tsx -e ' import assert from "node:assert/strict"; import { issueSupabaseSessionJwt } from "./src/utils/authSecurity"; const BASE = "http://localhost:3000"; async function runLiveHttpSecurityTests() { console.log("=== EXECUTANDO OS 10 TESTES OBRIGATÓRIOS CONTRA HTTP://LOCALHOST:3000 ==="); // Teste 1 — Acesso sem autenticação const t1 = await fetch(`${BASE}/api/bootstrap`); const t1Json = await t1.json(); console.log("Teste 1 (Sem token -> /api/bootstrap):", t1.status, t1Json.code); assert.equal(t1.status, 401); assert.equal(t1Json.code, "MISSING_TOKEN"); // Teste 2 — Token inválido const t2 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: "Bearer token.invalido.adulterado" }, }); const t2Json = await t2.json(); console.log("Teste 2 (Token inválido -> /api/bootstrap):", t2.status, t2Json.code); assert.equal(t2.status, 401); assert.equal(t2Json.code, "INVALID_SIGNATURE"); // Teste 3 — Token expirado const expired = issueSupabaseSessionJwt({ authUserId: "00000000-0000-4000-a000-000000000001", email: "carlos.mendes@construtoravale.com.br", expiresInSeconds: -60, }); const t3 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${expired.accessToken}` }, }); const t3Json = await t3.json(); console.log("Teste 3 (Token expirado -> /api/bootstrap):", t3.status, t3Json.code); assert.equal(t3.status, 401); assert.equal(t3Json.code, "TOKEN_EXPIRED"); // Teste 4 — Usuário autenticado (Login via /api/auth/login) const loginRes = await fetch(`${BASE}/api/auth/login`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: "carlos.mendes@construtoravale.com.br" }), }); assert.equal(loginRes.status, 200); const loginData = await loginRes.json(); const validJwt = loginData.accessToken; const t4 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${validJwt}` }, }); const t4Json = await t4.json(); console.log("Teste 4 (Usuário autenticado -> /api/bootstrap):", t4.status, t4Json.activeProfile.userId, t4Json.activeProfile.authUserId); assert.equal(t4.status, 200); assert.equal(t4Json.activeProfile.authUserId, "00000000-0000-4000-a000-000000000001"); assert.equal(t4Json.activeProfile.role, "COMPANY"); // Teste 5 — Tentativa de assumir perfil administrativo (escalonamento de privilégio) const t5a = await fetch(`${BASE}/api/auth/switch-role`, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ role: "SUPER_ADMIN", organizationId: "org-pupa-labs" }), }); const t5aJson = await t5a.json(); console.log("Teste 5a (Escalonamento via /api/auth/switch-role para SUPER_ADMIN):", t5a.status, t5aJson.reasonCode); assert.equal(t5a.status, 403); assert.equal(t5aJson.reasonCode, "PRIVILEGE_ESCALATION_BLOCKED"); const t5b = await fetch(`${BASE}/api/profile/personal`, { method: "PUT", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ fullName: "Carlos Mendes", phone: "(33) 99912-4400", jobTitle: "Diretor", city: "Manhuaçu", uf: "MG", role: "SUPER_ADMIN", }), }); const t5bJson = await t5b.json(); console.log("Teste 5b (Tampering de role no body de /api/profile/personal):", t5b.status, t5bJson.error); assert.equal(t5b.status, 403); // Teste 6 — Tentativa de acessar outra organização const t6a = await fetch(`${BASE}/api/organization/org-expresso-minas`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6a (Acesso cruzado GET /api/organization/org-expresso-minas):", t6a.status); assert.equal(t6a.status, 403); const t6b = await fetch(`${BASE}/api/trust/org-driver-joao`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6b (Acesso cruzado GET /api/trust/org-driver-joao):", t6b.status); assert.equal(t6b.status, 403); const t6c = await fetch(`${BASE}/api/documents/doc-cnh-joao`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6c (Acesso cruzado GET /api/documents/doc-cnh-joao):", t6c.status); assert.equal(t6c.status, 403); // Teste 7 — Tentativa de acessar perfil de outro usuário const t7 = await fetch(`${BASE}/api/profile/usr-joao-driver`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 7 (Acesso a perfil de terceiro GET /api/profile/usr-joao-driver):", t7.status); assert.equal(t7.status, 403); // Teste 8 — Proteção de dados administrativos console.log("Teste 8a (adminControl oculto no /api/bootstrap para COMPANY):", t4Json.adminControl); assert.equal(t4Json.adminControl, null); const t8b = await fetch(`${BASE}/api/admin/commercial-settings`, { method: "PUT", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ companyFeePercent: 0, providerFeePercent: 0, freeTrialDays: 90, defaultPartnerCommissionPercent: 50, }), }); console.log("Teste 8b (Bloqueio de rota administrativa PUT /api/admin/commercial-settings):", t8b.status); assert.equal(t8b.status, 403); // Teste 9 — Troca autorizada de organização (Carlos possui vínculo em org-vale-sa e org-cafe-matas) const t9 = await fetch(`${BASE}/api/auth/switch-role`, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ organizationId: "org-cafe-matas", role: "COMPANY" }), }); const t9Json = await t9.json(); console.log("Teste 9 (Troca autorizada de organização para org-cafe-matas):", t9.status, t9Json.activeProfile?.organizationId); assert.equal(t9.status, 200); assert.equal(t9Json.activeProfile.organizationId, "org-cafe-matas"); // Restaura para org-vale-sa antes do logout await fetch(`${BASE}/api/auth/switch-role`, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ organizationId: "org-vale-sa", role: "COMPANY" }), }); // Teste 10 — Logout e invalidação de sessão const t10Logout = await fetch(`${BASE}/api/auth/logout`, { method: "POST", headers: { Authorization: `Bearer ${validJwt}` }, }); assert.equal(t10Logout.status, 200); const t10Reuse = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${validJwt}` }, }); const t10ReuseJson = await t10Reuse.json(); console.log("Teste 10 (Reuso de token após logout -> /api/bootstrap):", t10Reuse.status, t10ReuseJson.code); assert.equal(t10Reuse.status, 401); assert.equal(t10ReuseJson.code, "TOKEN_REVOKED"); console.log("=== TODOS OS 10 TESTES HTTP REAIS APROVADOS COM SUCESSO ==="); } runLiveHttpSecurityTests().catch((err) => { console.error(err); process.exit(1); }); '
-=== EXECUTANDO OS 10 TESTES OBRIGATÓRIOS CONTRA HTTP://LOCALHOST:3000 ===Teste 1 (Sem token -> /api/bootstrap): 401 MISSING_TOKENTeste 2 (Token inválido -> /api/bootstrap): 401 INVALID_SIGNATURETeste 3 (Token expirado -> /api/bootstrap): 401 TOKEN_EXPIREDTeste 4 (Usuário autenticado -> /api/bootstrap): 200 usr-carlos-company 00000000-0000-4000-a000-000000000001Teste 5a (Escalonamento via /api/auth/switch-role para SUPER_ADMIN): 403 undefinedAssertionError [ERR_ASSERTION]: Expected values to be strictly equal:+ actual - expected+ undefined- 'PRIVILEGE_ESCALATION_BLOCKED'    at runLiveHttpSecurityTests ([eval]:79:25)    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {  generatedMessage: true,  code: 'ERR_ASSERTION',  actual: undefined,  expected: 'PRIVILEGE_ESCALATION_BLOCKED',  operator: 'strictEqual',  diff: 'simple'}
-Read file
-Read 1 file: server.ts from line 949 to line 1029
-Ran command
-npx --yes tsx -e ' import assert from "node:assert/strict"; import { issueSupabaseSessionJwt } from "./src/utils/authSecurity"; const BASE = "http://localhost:3000"; async function runLiveHttpSecurityTests() { console.log("=== EXECUTANDO OS 10 TESTES OBRIGATÓRIOS CONTRA HTTP://LOCALHOST:3000 ==="); // Teste 1 — Acesso sem autenticação const t1 = await fetch(`${BASE}/api/bootstrap`); const t1Json = await t1.json(); console.log("Teste 1 (Sem token -> /api/bootstrap):", t1.status, t1Json.code); assert.equal(t1.status, 401); assert.equal(t1Json.code, "MISSING_TOKEN"); // Teste 2 — Token inválido const t2 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: "Bearer token.invalido.adulterado" }, }); const t2Json = await t2.json(); console.log("Teste 2 (Token inválido -> /api/bootstrap):", t2.status, t2Json.code); assert.equal(t2.status, 401); assert.equal(t2Json.code, "INVALID_SIGNATURE"); // Teste 3 — Token expirado const expired = issueSupabaseSessionJwt({ authUserId: "00000000-0000-4000-a000-000000000001", email: "carlos.mendes@construtoravale.com.br", expiresInSeconds: -60, }); const t3 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${expired.accessToken}` }, }); const t3Json = await t3.json(); console.log("Teste 3 (Token expirado -> /api/bootstrap):", t3.status, t3Json.code); assert.equal(t3.status, 401); assert.equal(t3Json.code, "TOKEN_EXPIRED"); // Teste 4 — Usuário autenticado (Login via /api/auth/login) const loginRes = await fetch(`${BASE}/api/auth/login`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: "carlos.mendes@construtoravale.com.br" }), }); assert.equal(loginRes.status, 200); const loginData = await loginRes.json(); const validJwt = loginData.accessToken; const t4 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${validJwt}` }, }); const t4Json = await t4.json(); console.log("Teste 4 (Usuário autenticado -> /api/bootstrap):", t4.status, t4Json.activeProfile.userId, t4Json.activeProfile.authUserId); assert.equal(t4.status, 200); assert.equal(t4Json.activeProfile.authUserId, "00000000-0000-4000-a000-000000000001"); assert.equal(t4Json.activeProfile.role, "COMPANY"); // Teste 5 — Tentativa de assumir perfil administrativo (escalonamento de privilégio) const t5a = await fetch(`${BASE}/api/auth/switch-role`, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ role: "SUPER_ADMIN", organizationId: "org-pupa-labs" }), }); const t5aJson = await t5a.json(); console.log("Teste 5a (Escalonamento via /api/auth/switch-role para SUPER_ADMIN):", t5a.status, t5aJson.code); assert.equal(t5a.status, 403); assert.equal(t5aJson.code, "PRIVILEGE_ESCALATION_BLOCKED"); const t5b = await fetch(`${BASE}/api/profile/personal`, { method: "PUT", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ fullName: "Carlos Mendes", phone: "(33) 99912-4400", jobTitle: "Diretor", city: "Manhuaçu", uf: "MG", role: "SUPER_ADMIN", }), }); const t5bJson = await t5b.json(); console.log("Teste 5b (Tampering de role no body de /api/profile/personal):", t5b.status, t5bJson.error); assert.equal(t5b.status, 403); // Teste 6 — Tentativa de acessar outra organização const t6a = await fetch(`${BASE}/api/organization/org-expresso-minas`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6a (Acesso cruzado GET /api/organization/org-expresso-minas):", t6a.status); assert.equal(t6a.status, 403); const t6b = await fetch(`${BASE}/api/trust/org-driver-joao`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6b (Acesso cruzado GET /api/trust/org-driver-joao):", t6b.status); assert.equal(t6b.status, 403); const t6c = await fetch(`${BASE}/api/documents/doc-cnh-joao`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6c (Acesso cruzado GET /api/documents/doc-cnh-joao):", t6c.status); assert.equal(t6c.status, 403); // Teste 7 — Tentativa de acessar perfil de outro usuário const t7 = await fetch(`${BASE}/api/profile/usr-joao-driver`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 7 (Acesso a perfil de terceiro GET /api/profile/usr-joao-driver):", t7.status); assert.equal(t7.status, 403); // Teste 8 — Proteção de dados administrativos console.log("Teste 8a (adminControl oculto no /api/bootstrap para COMPANY):", t4Json.adminControl); assert.equal(t4Json.adminControl, null); const t8b = await fetch(`${BASE}/api/admin/commercial-settings`, { method: "PUT", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ companyFeePercent: 0, providerFeePercent: 0, freeTrialDays: 90, defaultPartnerCommissionPercent: 50, }), }); console.log("Teste 8b (Bloqueio de rota administrativa PUT /api/admin/commercial-settings):", t8b.status); assert.equal(t8b.status, 403); // Teste 9 — Troca autorizada de organização (Carlos possui vínculo em org-vale-sa e org-cafe-matas) const t9 = await fetch(`${BASE}/api/auth/switch-role`, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ organizationId: "org-cafe-matas", role: "COMPANY" }), }); const t9Json = await t9.json(); console.log("Teste 9 (Troca autorizada de organização para org-cafe-matas):", t9.status, t9Json.activeProfile?.organizationId); assert.equal(t9.status, 200); assert.equal(t9Json.activeProfile.organizationId, "org-cafe-matas"); // Restaura para org-vale-sa antes do logout await fetch(`${BASE}/api/auth/switch-role`, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ organizationId: "org-vale-sa", role: "COMPANY" }), }); // Teste 10 — Logout e invalidação de sessão const t10Logout = await fetch(`${BASE}/api/auth/logout`, { method: "POST", headers: { Authorization: `Bearer ${validJwt}` }, }); assert.equal(t10Logout.status, 200); const t10Reuse = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${validJwt}` }, }); const t10ReuseJson = await t10Reuse.json(); console.log("Teste 10 (Reuso de token após logout -> /api/bootstrap):", t10Reuse.status, t10ReuseJson.code); assert.equal(t10Reuse.status, 401); assert.equal(t10ReuseJson.code, "TOKEN_REVOKED"); console.log("=== TODOS OS 10 TESTES HTTP REAIS APROVADOS COM SUCESSO ==="); } runLiveHttpSecurityTests().catch((err) => { console.error(err); process.exit(1); }); '
-=== EXECUTANDO OS 10 TESTES OBRIGATÓRIOS CONTRA HTTP://LOCALHOST:3000 ===Teste 1 (Sem token -> /api/bootstrap): 401 MISSING_TOKENTeste 2 (Token inválido -> /api/bootstrap): 401 INVALID_SIGNATURETeste 3 (Token expirado -> /api/bootstrap): 401 TOKEN_EXPIREDTeste 4 (Usuário autenticado -> /api/bootstrap): 200 usr-carlos-company 00000000-0000-4000-a000-000000000001Teste 5a (Escalonamento via /api/auth/switch-role para SUPER_ADMIN): 403 PRIVILEGE_ESCALATION_BLOCKEDSyntaxError: Unexpected end of JSON input    at JSON.parse (<anonymous>)    at parseJSONFromBytes (node:internal/deps/undici/undici:5895:19)    at successSteps (node:internal/deps/undici/undici:5876:27)    at fullyReadBody (node:internal/deps/undici/undici:4768:9)    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)    at async consumeBody (node:internal/deps/undici/undici:5885:7)    at async runLiveHttpSecurityTests ([eval]:95:19)
-Read file
-Read 1 file: server.ts from line 1029 to line 1219
-Ran command
-npx --yes tsx -e ' import assert from "node:assert/strict"; import { issueSupabaseSessionJwt } from "./src/utils/authSecurity"; const BASE = "http://localhost:3000"; async function runLiveHttpSecurityTests() { console.log("=== EXECUTANDO OS 10 TESTES OBRIGATÓRIOS CONTRA HTTP://LOCALHOST:3000 ==="); // Teste 1 — Acesso sem autenticação const t1 = await fetch(`${BASE}/api/bootstrap`); const t1Json = await t1.json(); console.log("Teste 1 (Sem token -> /api/bootstrap):", t1.status, t1Json.code); assert.equal(t1.status, 401); assert.equal(t1Json.code, "MISSING_TOKEN"); // Teste 2 — Token inválido const t2 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: "Bearer token.invalido.adulterado" }, }); const t2Json = await t2.json(); console.log("Teste 2 (Token inválido -> /api/bootstrap):", t2.status, t2Json.code); assert.equal(t2.status, 401); assert.equal(t2Json.code, "INVALID_SIGNATURE"); // Teste 3 — Token expirado const expired = issueSupabaseSessionJwt({ authUserId: "00000000-0000-4000-a000-000000000001", email: "carlos.mendes@construtoravale.com.br", expiresInSeconds: -60, }); const t3 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${expired.accessToken}` }, }); const t3Json = await t3.json(); console.log("Teste 3 (Token expirado -> /api/bootstrap):", t3.status, t3Json.code); assert.equal(t3.status, 401); assert.equal(t3Json.code, "TOKEN_EXPIRED"); // Teste 4 — Usuário autenticado (Login via /api/auth/login) const loginRes = await fetch(`${BASE}/api/auth/login`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: "carlos.mendes@construtoravale.com.br" }), }); assert.equal(loginRes.status, 200); const loginData = await loginRes.json(); const validJwt = loginData.accessToken; const t4 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${validJwt}` }, }); const t4Json = await t4.json(); console.log("Teste 4 (Usuário autenticado -> /api/bootstrap):", t4.status, t4Json.activeProfile.userId, t4Json.activeProfile.authUserId); assert.equal(t4.status, 200); assert.equal(t4Json.activeProfile.authUserId, "00000000-0000-4000-a000-000000000001"); assert.equal(t4Json.activeProfile.role, "COMPANY"); // Teste 5 — Tentativa de assumir perfil administrativo (escalonamento de privilégio) const t5a = await fetch(`${BASE}/api/auth/switch-role`, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ role: "SUPER_ADMIN", organizationId: "org-pupa-labs" }), }); const t5aJson = await t5a.json(); console.log("Teste 5a (Escalonamento via /api/auth/switch-role para SUPER_ADMIN):", t5a.status, t5aJson.code); assert.equal(t5a.status, 403); assert.equal(t5aJson.code, "PRIVILEGE_ESCALATION_BLOCKED"); const t5b = await fetch(`${BASE}/api/profile/me`, { method: "PUT", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ fullName: "Carlos Mendes", phone: "(33) 99912-4400", jobTitle: "Diretor", city: "Manhuaçu", uf: "MG", role: "SUPER_ADMIN", }), }); const t5bJson = await t5b.json(); console.log("Teste 5b (Tampering de role no body de PUT /api/profile/me):", t5b.status, t5bJson.error); assert.equal(t5b.status, 403); // Teste 6 — Tentativa de acessar outra organização const t6a = await fetch(`${BASE}/api/organization/org-expresso-minas`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6a (Acesso cruzado GET /api/organization/org-expresso-minas):", t6a.status); assert.equal(t6a.status, 403); const t6b = await fetch(`${BASE}/api/trust/org-driver-joao`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6b (Acesso cruzado GET /api/trust/org-driver-joao):", t6b.status); assert.equal(t6b.status, 403); const t6c = await fetch(`${BASE}/api/documents/doc-cnh-joao`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6c (Acesso cruzado GET /api/documents/doc-cnh-joao):", t6c.status); assert.equal(t6c.status, 403); // Teste 7 — Tentativa de acessar perfil de outro usuário const t7 = await fetch(`${BASE}/api/profile/usr-joao-driver`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 7 (Acesso a perfil de terceiro GET /api/profile/usr-joao-driver):", t7.status); assert.equal(t7.status, 403); // Teste 8 — Proteção de dados administrativos console.log("Teste 8a (adminControl oculto no /api/bootstrap para COMPANY):", t4Json.adminControl); assert.equal(t4Json.adminControl, null); const t8b = await fetch(`${BASE}/api/admin/commercial-settings`, { method: "PUT", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ companyFeePercent: 0, providerFeePercent: 0, freeTrialDays: 90, defaultPartnerCommissionPercent: 50, }), }); console.log("Teste 8b (Bloqueio de rota administrativa PUT /api/admin/commercial-settings):", t8b.status); assert.equal(t8b.status, 403); // Teste 9 — Troca autorizada de organização (Carlos possui vínculo em org-vale-sa e org-cafe-matas) const t9 = await fetch(`${BASE}/api/auth/switch-role`, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ organizationId: "org-cafe-matas", role: "COMPANY" }), }); const t9Json = await t9.json(); console.log("Teste 9 (Troca autorizada de organização para org-cafe-matas):", t9.status, t9Json.activeProfile?.organizationId); assert.equal(t9.status, 200); assert.equal(t9Json.activeProfile.organizationId, "org-cafe-matas"); // Restaura para org-vale-sa antes do logout await fetch(`${BASE}/api/auth/switch-role`, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ organizationId: "org-vale-sa", role: "COMPANY" }), }); // Teste 10 — Logout e invalidação de sessão const t10Logout = await fetch(`${BASE}/api/auth/logout`, { method: "POST", headers: { Authorization: `Bearer ${validJwt}` }, }); assert.equal(t10Logout.status, 200); const t10Reuse = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${validJwt}` }, }); const t10ReuseJson = await t10Reuse.json(); console.log("Teste 10 (Reuso de token após logout -> /api/bootstrap):", t10Reuse.status, t10ReuseJson.code); assert.equal(t10Reuse.status, 401); assert.equal(t10ReuseJson.code, "TOKEN_REVOKED"); console.log("=== TODOS OS 10 TESTES HTTP REAIS APROVADOS COM SUCESSO ==="); } runLiveHttpSecurityTests().catch((err) => { console.error(err); process.exit(1); }); '
-=== EXECUTANDO OS 10 TESTES OBRIGATÓRIOS CONTRA HTTP://LOCALHOST:3000 ===Teste 1 (Sem token -> /api/bootstrap): 401 MISSING_TOKENTeste 2 (Token inválido -> /api/bootstrap): 401 INVALID_SIGNATURETeste 3 (Token expirado -> /api/bootstrap): 401 TOKEN_EXPIREDTeste 4 (Usuário autenticado -> /api/bootstrap): 200 usr-carlos-company 00000000-0000-4000-a000-000000000001Teste 5a (Escalonamento via /api/auth/switch-role para SUPER_ADMIN): 403 PRIVILEGE_ESCALATION_BLOCKEDTeste 5b (Tampering de role no body de PUT /api/profile/me): 403 Violação de segurança bloqueada: não é permitido alterar privilégios ou assumir funções administrativas pelo cliente.Teste 6a (Acesso cruzado GET /api/organization/org-expresso-minas): 403Teste 6b (Acesso cruzado GET /api/trust/org-driver-joao): 403Teste 6c (Acesso cruzado GET /api/documents/doc-cnh-joao): 404AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:404 !== 403    at runLiveHttpSecurityTests ([eval]:112:25)    at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {  generatedMessage: true,  code: 'ERR_ASSERTION',  actual: 404,  expected: 403,  operator: 'strictEqual',  diff: 'simple'}
-Ran command
-grep -rnE "id: 'doc-|organizationId: 'org-" src/data/initialSeed.ts | head -n 25
-39:    organizationId: 'org-vale-sa',59:    organizationId: 'org-driver-joao',79:    organizationId: 'org-expresso-minas',99:    organizationId: 'org-pupa-labs',119:    organizationId: 'org-pupa-labs',139:    organizationId: 'org-pupa-labs',155:    organizationId: 'org-vale-sa',194:    organizationId: 'org-vale-sa',231:    organizationId: 'org-vale-sa',268:    organizationId: 'org-vale-sa',299:    organizationId: 'org-vale-sa',330:    organizationId: 'org-vale-sa',361:    organizationId: 'org-vale-sa',392:    organizationId: 'org-vale-sa',423:    organizationId: 'org-vale-sa',454:    organizationId: 'org-vale-sa',485:    organizationId: 'org-vale-sa',516:    organizationId: 'org-vale-sa',849:    id: 'doc-1',850:    organizationId: 'org-driver-joao',874:    id: 'doc-1b',875:    organizationId: 'org-driver-joao',899:    id: 'doc-1c',900:    organizationId: 'org-driver-joao',924:    id: 'doc-2',
-Ran command
-npx --yes tsx -e ' import assert from "node:assert/strict"; import { issueSupabaseSessionJwt } from "./src/utils/authSecurity"; const BASE = "http://localhost:3000"; async function runLiveHttpSecurityTests() { console.log("=== EXECUTANDO OS 10 TESTES OBRIGATÓRIOS CONTRA HTTP://LOCALHOST:3000 ==="); // Teste 1 — Acesso sem autenticação const t1 = await fetch(`${BASE}/api/bootstrap`); const t1Json = await t1.json(); console.log("Teste 1 (Sem token -> /api/bootstrap):", t1.status, t1Json.code); assert.equal(t1.status, 401); assert.equal(t1Json.code, "MISSING_TOKEN"); // Teste 2 — Token inválido const t2 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: "Bearer token.invalido.adulterado" }, }); const t2Json = await t2.json(); console.log("Teste 2 (Token inválido -> /api/bootstrap):", t2.status, t2Json.code); assert.equal(t2.status, 401); assert.equal(t2Json.code, "INVALID_SIGNATURE"); // Teste 3 — Token expirado const expired = issueSupabaseSessionJwt({ authUserId: "00000000-0000-4000-a000-000000000001", email: "carlos.mendes@construtoravale.com.br", expiresInSeconds: -60, }); const t3 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${expired.accessToken}` }, }); const t3Json = await t3.json(); console.log("Teste 3 (Token expirado -> /api/bootstrap):", t3.status, t3Json.code); assert.equal(t3.status, 401); assert.equal(t3Json.code, "TOKEN_EXPIRED"); // Teste 4 — Usuário autenticado (Login via /api/auth/login) const loginRes = await fetch(`${BASE}/api/auth/login`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: "carlos.mendes@construtoravale.com.br" }), }); assert.equal(loginRes.status, 200); const loginData = await loginRes.json(); const validJwt = loginData.accessToken; const t4 = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${validJwt}` }, }); const t4Json = await t4.json(); console.log("Teste 4 (Usuário autenticado -> /api/bootstrap):", t4.status, t4Json.activeProfile.userId, t4Json.activeProfile.authUserId); assert.equal(t4.status, 200); assert.equal(t4Json.activeProfile.authUserId, "00000000-0000-4000-a000-000000000001"); assert.equal(t4Json.activeProfile.role, "COMPANY"); // Teste 5 — Tentativa de assumir perfil administrativo (escalonamento de privilégio) const t5a = await fetch(`${BASE}/api/auth/switch-role`, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ role: "SUPER_ADMIN", organizationId: "org-pupa-labs" }), }); const t5aJson = await t5a.json(); console.log("Teste 5a (Escalonamento via /api/auth/switch-role para SUPER_ADMIN):", t5a.status, t5aJson.code); assert.equal(t5a.status, 403); assert.equal(t5aJson.code, "PRIVILEGE_ESCALATION_BLOCKED"); const t5b = await fetch(`${BASE}/api/profile/me`, { method: "PUT", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ fullName: "Carlos Mendes", phone: "(33) 99912-4400", jobTitle: "Diretor", city: "Manhuaçu", uf: "MG", role: "SUPER_ADMIN", }), }); const t5bJson = await t5b.json(); console.log("Teste 5b (Tampering de role no body de PUT /api/profile/me):", t5b.status, t5bJson.error); assert.equal(t5b.status, 403); // Teste 6 — Tentativa de acessar outra organização const t6a = await fetch(`${BASE}/api/organization/org-expresso-minas`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6a (Acesso cruzado GET /api/organization/org-expresso-minas):", t6a.status); assert.equal(t6a.status, 403); const t6b = await fetch(`${BASE}/api/trust/org-driver-joao`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6b (Acesso cruzado GET /api/trust/org-driver-joao):", t6b.status); assert.equal(t6b.status, 403); const t6c = await fetch(`${BASE}/api/documents/doc-1`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 6c (Acesso cruzado GET /api/documents/doc-1):", t6c.status); assert.equal(t6c.status, 403); // Teste 7 — Tentativa de acessar perfil de outro usuário const t7 = await fetch(`${BASE}/api/profile/usr-joao-driver`, { headers: { Authorization: `Bearer ${validJwt}` }, }); console.log("Teste 7 (Acesso a perfil de terceiro GET /api/profile/usr-joao-driver):", t7.status); assert.equal(t7.status, 403); // Teste 8 — Proteção de dados administrativos console.log("Teste 8a (adminControl oculto no /api/bootstrap para COMPANY):", t4Json.adminControl); assert.equal(t4Json.adminControl, null); const t8b = await fetch(`${BASE}/api/admin/commercial-settings`, { method: "PUT", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ companyFeePercent: 0, providerFeePercent: 0, freeTrialDays: 90, defaultPartnerCommissionPercent: 50, }), }); console.log("Teste 8b (Bloqueio de rota administrativa PUT /api/admin/commercial-settings):", t8b.status); assert.equal(t8b.status, 403); // Teste 9 — Troca autorizada de organização (Carlos possui vínculo em org-vale-sa e org-cafe-matas) const t9 = await fetch(`${BASE}/api/auth/switch-role`, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ organizationId: "org-cafe-matas", role: "COMPANY" }), }); const t9Json = await t9.json(); console.log("Teste 9 (Troca autorizada de organização para org-cafe-matas):", t9.status, t9Json.activeProfile?.organizationId); assert.equal(t9.status, 200); assert.equal(t9Json.activeProfile.organizationId, "org-cafe-matas"); // Restaura para org-vale-sa antes do logout await fetch(`${BASE}/api/auth/switch-role`, { method: "POST", headers: { "Content-Type": "application/json", Authorization: `Bearer ${validJwt}`, }, body: JSON.stringify({ organizationId: "org-vale-sa", role: "COMPANY" }), }); // Teste 10 — Logout e invalidação de sessão const t10Logout = await fetch(`${BASE}/api/auth/logout`, { method: "POST", headers: { Authorization: `Bearer ${validJwt}` }, }); assert.equal(t10Logout.status, 200); const t10Reuse = await fetch(`${BASE}/api/bootstrap`, { headers: { Authorization: `Bearer ${validJwt}` }, }); const t10ReuseJson = await t10Reuse.json(); console.log("Teste 10 (Reuso de token após logout -> /api/bootstrap):", t10Reuse.status, t10ReuseJson.code); assert.equal(t10Reuse.status, 401); assert.equal(t10ReuseJson.code, "TOKEN_REVOKED"); console.log("=== TODOS OS 10 TESTES HTTP REAIS APROVADOS COM SUCESSO ==="); } runLiveHttpSecurityTests().catch((err) => { console.error(err); process.exit(1); }); '
-=== EXECUTANDO OS 10 TESTES OBRIGATÓRIOS CONTRA HTTP://LOCALHOST:3000 ===Teste 1 (Sem token -> /api/bootstrap): 401 MISSING_TOKENTeste 2 (Token inválido -> /api/bootstrap): 401 INVALID_SIGNATURETeste 3 (Token expirado -> /api/bootstrap): 401 TOKEN_EXPIREDTeste 4 (Usuário autenticado -> /api/bootstrap): 200 usr-carlos-company 00000000-0000-4000-a000-000000000001Teste 5a (Escalonamento via /api/auth/switch-role para SUPER_ADMIN): 403 PRIVILEGE_ESCALATION_BLOCKEDTeste 5b (Tampering de role no body de PUT /api/profile/me): 403 Violação de segurança bloqueada: não é permitido alterar privilégios ou assumir funções administrativas pelo cliente.Teste 6a (Acesso cruzado GET /api/organization/org-expresso-minas): 403Teste 6b (Acesso cruzado GET /api/trust/org-driver-joao): 403Teste 6c (Acesso cruzado GET /api/documents/doc-1): 403Teste 7 (Acesso a perfil de terceiro GET /api/profile/usr-joao-driver): 403Teste 8a (adminControl oculto no /api/bootstrap para COMPANY): nullTeste 8b (Bloqueio de rota administrativa PUT /api/admin/commercial-settings): 403Teste 9 (Troca autorizada de organização para org-cafe-matas): 200 org-cafe-matasTeste 10 (Reuso de token após logout -> /api/bootstrap): 401 TOKEN_REVOKED=== TODOS OS 10 TESTES HTTP REAIS APROVADOS COM SUCESSO ===
-Thought for 13 seconds
-Used browser
-playwright-cli -s=etapa01 open http://localhost:3000 && sleep 2 && playwright-cli -s=etapa01 eval "() => ({ title: document.title, tokenPresent: Boolean(localStorage.getItem('nexcarga_supabase_access_token')), greeting: document.querySelector('h1')?.textContent })" && playwright-cli -s=etapa01 console error && playwright-cli -s=etapa01 close
-### Browser `etapa01` opened with pid 1673.### Ran Playwright code```jsawait page.goto('http://localhost:3000');```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga — Sua carga. Nossa conexão. | LogTech SaaS B2B### Snapshot- [Snapshot](.playwright-cli/page-2026-11-05T21-06-02-725Z.yml)### Events- New console entries: .playwright-cli/console-2026-11-05T21-05-58-607Z.log#L1### Result{  "title": "NexCarga — Sua carga. Nossa conexão. | LogTech SaaS B2B",  "tokenPresent": true,  "greeting": "Olá, Carlos!"}### Ran Playwright code```jsawait page.evaluate('() => ({ title: document.title, tokenPresent: Boolean(localStorage.getItem(\'nexcarga_supabase_access_token\')), greeting: document.querySelector(\'h1\')?.textContent })');```### ResultTotal messages: 3 (Errors: 0, Warnings: 0)Returning 0 messages for level "error"Browser 'etapa01' closed
-
-### Latest snapshot (.playwright-cli/page-2026-11-05T21-06-02-725Z.yml)
-```yaml
-- paragraph [ref=e6]: Carregando ecossistema logístico NEXCARGA...
-```
-
-### Log (.playwright-cli/console-2026-11-05T21-05-58-607Z.log#L1-L1)
-```
-[    2762ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=de1cae24:15801
-```
+npx --yes tsx --test src/domain/rules.test.ts
+TAP version 13# Subtest: NexID username normalization and reserved word protectionok 1 - NexID username normalization and reserved word protection  ---  duration_ms: 1.728946  type: 'test'  ...# Subtest: Operational fee calculation: 6% standard (3% shipper / 3% carrier) on R$ 5.000,00ok 2 - Operational fee calculation: 6% standard (3% shipper / 3% carrier) on R$ 5.000,00  ---  duration_ms: 0.336797  type: 'test'  ...# Subtest: Privacy & address lock before and after operational fee confirmationok 3 - Privacy & address lock before and after operational fee confirmation  ---  duration_ms: 0.691525  type: 'test'  ...# Subtest: System NEX-0000 confirmation codes: generation, stage separation, and single-use enforcementok 4 - System NEX-0000 confirmation codes: generation, stage separation, and single-use enforcement  ---  duration_ms: 0.626661  type: 'test'  ...# Subtest: NexChat PII sanitization before fee paymentok 5 - NexChat PII sanitization before fee payment  ---  duration_ms: 0.884809  type: 'test'  ...# Subtest: NexCalc logistics cost calculationok 6 - NexCalc logistics cost calculation  ---  duration_ms: 0.40558  type: 'test'  ...# Subtest: NexScore bounds, plate masking, verified seal, and NexPartners anti-self-referralok 7 - NexScore bounds, plate masking, verified seal, and NexPartners anti-self-referral  ---  duration_ms: 0.489713  type: 'test'  ...1..7# tests 7# suites 0# pass 7# fail 0# cancelled 0# skipped 0# todo 0# duration_ms 479.654384
 Built
 Ran quality control
-NEXCARGA — ETAPA 01: CORREÇÃO DE AUTENTICAÇÃO, AUTORIZAÇÃO E SEGURANÇA
-1. Diagnóstico Inicial
-A auditoria técnica realizada sobre o backend (/server.ts), os dados de seed (/src/data/initialSeed.ts), o cliente frontend (/src/App.tsx) e as migrations SQL (/supabase/migrations/20261105000001..000003.sql) identificou as seguintes vulnerabilidades estruturais:
-Ausência de validação criptográfica de JWT nas rotas /api/*: as rotas privadas aceitavam requisições sem exigir cabeçalho Authorization: Bearer <token> validado.
-Controle de sessão acoplado a variável global compartilhada (dbState.activeRole): a função getActiveProfile(req?) utilizava um fallback global em memória/disco (dbState.activeRole) e 7 rotas invocavam getActiveProfile() sem passar req, fazendo com que a troca de perfil de um usuário afetasse outros clientes simultâneos.
-Confiança em identidade enviada pelo cliente: o endpoint POST /api/auth/session permitia alternar livremente para qualquer role (incluindo SUPER_ADMIN) ou organizationId enviado no corpo da requisição sem validar o vínculo real do usuário autenticado (sub) em organization_members.
-Identificadores não padronizados em UUID v4: os authUserId do seed utilizavam strings legadas (auth-usr-carlos-company) em vez de UUIDs compatíveis com auth.users(id) do Supabase Auth.
-Exposição de adminControl no /api/bootstrap: o objeto administrativo global (adminControl) era retornado no payload de /api/bootstrap mesmo quando a sessão pertencia a perfis não administrativos (COMPANY, DRIVER, CARRIER).
-Ausência de invalidação de token no logout: o endpoint POST /api/auth/logout apenas redefinia o estado, sem revogar o identificador único do token (jti).
-2. Arquivos Modificados e Criados
-/src/utils/authSecurity.ts (novo): motor criptográfico e de autorização multi-tenant responsável por emitir e verificar JWTs compatíveis com Supabase Auth (HS256), validar UUIDs (sub), manter sessões isoladas por jti, revogar tokens no logout e validar permissões em organization_members.
-/src/utils/supabaseClient.ts (novo): cliente oficial @supabase/supabase-js no frontend utilizando exclusivamente chaves públicas (VITE_SUPABASE_URL e VITE_SUPABASE_ANON_KEY) e interceptador automático installAuthenticatedFetchInterceptor() que anexa Authorization: Bearer <jwt> em todas as chamadas /api/*.
-/src/data/initialSeed.ts (modificado): padronização dos authUserId de todos os perfis para UUIDs válidos (00000000-0000-4000-a000-000000000001 a 00000000-0000-4000-a000-000000000006).
-/server.ts (modificado):
-Implementação do middleware centralizado requireSupabaseAuthMiddleware protegendo todas as rotas privadas /api/*.
-Remoção da dependência de dbState.activeRole; toda requisição resolve req.authSession e req.authProfile exclusivamente a partir do JWT validado.
-Implementação de rejectIdentityOrPrivilegeTampering para bloquear tentativas de enviar role, userId, authUserId, organizationId, accountStatus, trustStatus ou verifiedBadge no corpo das requisições.
-Proteção das rotas /api/bootstrap, /api/auth/session, /api/auth/switch-role, /api/auth/logout, /api/profile/*, /api/organization/*, /api/trust/*, /api/documents/* e /api/admin/*.
-/src/main.tsx (modificado): instalação do interceptador installAuthenticatedFetchInterceptor() antes da inicialização da árvore React.
-/src/App.tsx (modificado): integração com authenticateWithSupabaseSession, troca de organização vinculada via POST /api/auth/switch-role (organization_members) e revogação de JWT no logout (POST /api/auth/logout).
-/src/types/nexcarga.ts e /src/components/ModuleViews.tsx (modificados): tipagem de adminControl como null para perfis não administrativos e fallback seguro em Configurações.
-/src/utils/logisticsRules.test.ts (modificado): inclusão da suíte automatizada com os 10 testes obrigatórios de autenticação, autorização e isolamento multi-tenant.
-3. Correções Implementadas
-Autenticação real com sessão JWT do Supabase: emissão e verificação de JWT assinado (HS256) contendo sub (UUID de auth.users), email, aud: 'authenticated', iat, exp e jti, com suporte direto a supabaseClient.auth.getUser(token) quando o projeto Supabase externo estiver configurado.
-Envio obrigatório de Authorization: Bearer <token> pelo frontend: todas as requisições /api/* passam pelo interceptador de fetch que anexa o JWT da sessão ativa.
-Middleware centralizado no Express (requireSupabaseAuthMiddleware): registrado em app.use('/api', requireSupabaseAuthMiddleware), bloqueando com 401 Unauthorized qualquer acesso sem token, com assinatura inválida, expirado ou revogado.
-Vínculo estrito ao UUID (sub): cada perfil interno (UserProfileAccount) está vinculado ao UUID de auth.users (00000000-0000-4000-a000-000000000001..000000000006).
-Eliminação de confiança em parâmetros do cliente: o servidor ignora ou rejeita com 403 Forbidden tentativas de injetar role, userId, authUserId ou organizationId arbitrários.
-Bloqueio de escalonamento de privilégio: usuários comuns (COMPANY, DRIVER, CARRIER) são impedidos de assumir SUPER_ADMIN, ADMIN, FINANCE, SUPPORT ou VERIFICATION (403 PRIVILEGE_ESCALATION_BLOCKED).
-Isolamento multi-tenant (organization_members): validação em canAccessOrganizationData e validateOrganizationContextSwitch garantindo que o usuário acesse apenas organizações às quais seu authUserId está associado.
-Isolamento de sessão por token (jti): eliminação do estado global compartilhado; cada sessão é indexada individualmente por seu jti.
-4. Como o JWT Está Sendo Validado
-Em /src/utils/authSecurity.ts (verifySupabaseJwt) e /server.ts (requireSupabaseAuthMiddleware):
-Extração: extractBearerToken(req.headers.authorization) exige estritamente o esquema Bearer <jwt>. Caso ausente, retorna 401 (MISSING_TOKEN).
-Verificação de Assinatura Criptográfica: recalcula o HMAC-SHA256 (HS256) sobre header.payload usando SUPABASE_JWT_SECRET e compara com crypto.timingSafeEqual (prevenindo timing attacks). Caso divergente e supabaseClient esteja configurado, consulta supabaseClient.auth.getUser(rawToken); se inválido, retorna 401 (INVALID_SIGNATURE).
-Validação de Claims: exige alg === 'HS256', aud === 'authenticated', sub em formato UUID v4 válido e presença de exp e jti.
-Expiração (exp): rejeita imediatamente tokens cujo timestamp atual seja maior ou igual a exp com 401 (TOKEN_EXPIRED).
-Lista de Revogação (revokedTokenJtis): verifica se o jti do token foi invalidado por logout; em caso positivo, retorna 401 (TOKEN_REVOKED).
-5. Como as Permissões São Verificadas
-Identidade Primária: extraída exclusivamente de req.authSession.authUserId (sub do JWT).
-Vínculo Organizacional (organization_members): consultado no servidor via getMembershipsForAuthUser(authUserId).
-Na rota POST /api/auth/switch-role, validateOrganizationContextSwitch verifica se o authUserId possui associação ativa com o organizationId e a role solicitados.
-Nas rotas /api/organization/:organizationId, /api/trust/:organizationId e /api/documents/:id, canAccessOrganizationData valida se o recurso pertence à organização do usuário autenticado ou se o usuário possui função administrativa legítima no Pupa Labs.
-Propriedade de Perfil (/api/profile/*): canAccessUserProfile garante que um usuário comum jamais consulte (GET /api/profile/:userId) ou modifique (PUT /api/profile/me, PUT /api/profile/preferences, PUT /api/profile/settings) dados de outro userId.
-RBAC Administrativo (/api/admin/* e adminControl): verifyAdminPermission(req, res, action) exige simultaneamente vínculo real com função administrativa em organization_members e permissão explícita na matriz RBAC (dbState.rolePermissions). No /api/bootstrap, adminControl retorna null para perfis não administrativos.
-6. Testes Executados e Resultados Reais
-Foram executadas duas baterias reais de testes:
-Suíte Automatizada Node Test Runner (npx tsx --test src/utils/logisticsRules.test.ts): 25/25 testes aprovados (0 falhas).
-Testes HTTP Reais contra o Servidor Express (http://localhost:3000) + Verificação Playwright: 10/10 cenários obrigatórios aprovados:
-#	Cenário Obrigatório	Endpoint / Ação Executada	Resultado Esperado	Resultado Real Obtido	Status
-1	Acesso sem autenticação	GET /api/bootstrap sem header Authorization	401 Unauthorized	401 (code: "MISSING_TOKEN")	APROVADO
-2	Token inválido	GET /api/bootstrap com Bearer token.invalido.adulterado	401 Unauthorized	401 (code: "INVALID_SIGNATURE")	APROVADO
-3	Token expirado	GET /api/bootstrap com JWT exp = now - 60s	401 Unauthorized	401 (code: "TOKEN_EXPIRED")	APROVADO
-4	Usuário autenticado	POST /api/auth/login + GET /api/bootstrap com JWT válido	200 OK	200 (sub: 00000000-0000-4000-a000-000000000001, role: "COMPANY")	APROVADO
-5	Tentativa de assumir perfil administrativo	POST /api/auth/switch-role (role: "SUPER_ADMIN") e PUT /api/profile/me (role: "SUPER_ADMIN")	403 Forbidden	403 (code: "PRIVILEGE_ESCALATION_BLOCKED")	APROVADO
-6	Tentativa de acessar outra organização	Usuário org-vale-sa acessando GET /api/organization/org-expresso-minas, GET /api/trust/org-driver-joao e GET /api/documents/doc-1	403 Forbidden	403 Forbidden em todas as 3 rotas	APROVADO
-7	Tentativa de acessar perfil de outro usuário	Usuário usr-carlos-company acessando GET /api/profile/usr-joao-driver	403 Forbidden	403 Forbidden	APROVADO
-8	Proteção de dados administrativos	Verificação de adminControl em /api/bootstrap para COMPANY + PUT /api/admin/commercial-settings	adminControl: null e 403 Forbidden	adminControl: null e 403 Forbidden	APROVADO
-9	Troca autorizada de organização	POST /api/auth/switch-role de org-vale-sa para filial vinculada org-cafe-matas (organization_members)	200 OK	200 OK (organizationId: "org-cafe-matas")	APROVADO
-10	Logout e invalidação de sessão	POST /api/auth/logout seguido de reuso do mesmo JWT em GET /api/bootstrap	200 OK no logout e 401 no reuso	200 OK no logout e 401 (code: "TOKEN_REVOKED") no reuso	APROVADO
-7. Problemas Ainda Pendentes (Próximas Etapas)
-Conforme escopo definido para a Etapa 01, permanecem planejados para as etapas subsequentes:
-Persistência Transacional em Nuvem: substituição da camada de persistência em arquivo JSON local (.data/nexcarga-store.json) pelas queries diretas no Supabase PostgreSQL.
-Upload Real de Arquivos Binários: integração das rotas /api/documents e /api/profile/avatar com buckets privados reais e URLs assinadas temporárias (Signed URLs).
-Persistência Distribuída de Revogação de Sessão (jti): atualmente a lista de tokens revogados (revokedTokenJtis) e sessões ativas reside em memória do processo Node.js; em múltiplas instâncias, deve ser persistida no PostgreSQL ou Redis.
-8. Alterações Necessárias no Supabase
-Para conectar o ambiente de produção do Supabase à camada de autenticação implementada nesta etapa:
-Configurar no ambiente do servidor as variáveis SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_JWT_SECRET (para validação local de alta performance do JWT HS256) e SUPABASE_SERVICE_ROLE_KEY (estritamente no backend).
-Configurar no ambiente de build do frontend apenas VITE_SUPABASE_URL e VITE_SUPABASE_ANON_KEY.
-Garantir que a tabela public.organization_members no Supabase PostgreSQL contenha a chave estrangeira auth_user_id UUID NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE e índice único (auth_user_id, organization_id) para suportar as políticas RLS baseadas em auth.uid().
-9. Riscos Que Ainda Impedem a Publicação em Produção
-Banco de Dados Local (.data/nexcarga-store.json): enquanto a migração da persistência para o Supabase PostgreSQL não for executada na próxima etapa, os dados transacionais permanecem no sistema de arquivos local do container.
-Segredo JWT de Fallback em Desenvolvimento: caso SUPABASE_JWT_SECRET não seja injetado nas variáveis de ambiente do servidor em produção, o sistema utiliza uma chave de fallback de desenvolvimento. Em produção, a presença de SUPABASE_JWT_SECRET deve ser obrigatória (fail-fast no boot).
-Armazenamento de Documentos: os metadados de documentos já respeitam isolamento multi-tenant, porém o armazenamento binário em bucket privado com URLs assinadas será ativado na etapa específica de Storage.
+Thought for 19 seconds
+Edited 2 files
+src/domain/rules.test.ts
+src/domain/rules.test.ts
+Built
+Ran quality control
+Restarted dev server
+Thought for 1 minute 5 seconds
+Used browser, took 1 screenshot
+trap 'playwright-cli close' EXIT mkdir -p .playwright-cli && \ playwright-cli open --browser=chromium http://localhost:3000 && \ playwright-cli resize 1440 900 && \ sleep 2 && \ playwright-cli screenshot --filename=.playwright-cli/r1-desktop-empresa.png && \ playwright-cli snapshot --depth=4 && \ playwright-cli console
+### Browser `default` opened with pid 372.### Ran Playwright code```jsawait page.goto('http://localhost:3000');```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-44-35-036Z.yml)### Events- New console entries: .playwright-cli/console-2026-11-06T18-44-34-034Z.log#L1### Ran Playwright code```jsawait page.setViewportSize({ width: 1440, height: 900 });```### Result- [Screenshot of viewport](.playwright-cli/r1-desktop-empresa.png)### Ran Playwright code```js// Screenshot viewport and save it as .playwright-cli/r1-desktop-empresa.pngawait page.screenshot({  path: '.playwright-cli/r1-desktop-empresa.png',  scale: 'css',  type: 'png'});```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot```yaml- generic [ref=e3]:  - complementary [ref=e19]:    - generic [ref=e20]:      - button "Nex Carga ® OFICIAL" [ref=e22] [cursor=pointer]:        - generic [ref=e28]      - generic [ref=e36]:        - generic [ref=e37]        - generic [ref=e46]      - navigation "Menu Principal NexCarga" [ref=e49]:        - button "Dashboard Empresa" [ref=e50] [cursor=pointer]        - button "Carrossel & Institucional" [ref=e57] [cursor=pointer]        - button "NexRadar & NexCalc" [ref=e62] [cursor=pointer]        - button "NexMoto (Motoboy)" [ref=e67] [cursor=pointer]        - button "NexIA & NexVerify" [ref=e74] [cursor=pointer]        - button "Planos e Assinaturas" [ref=e79] [cursor=pointer]        - button "NexID & NexPartners" [ref=e83] [cursor=pointer]        - button "NexControl (Admin)" [ref=e89] [cursor=pointer]        - button "NexApp (PWA)" [ref=e93] [cursor=pointer]        - button "Login Exclusivo" [ref=e97] [cursor=pointer]    - generic [ref=e102]:      - generic [ref=e103]: NEXCARGA OFICIAL v1.0      - generic [ref=e104]: Desenvolvido por @pupa.labs      - generic [ref=e105]: Sua carga. Nossa conexão.  - generic [ref=e106]:    - banner [ref=e107]:      - generic [ref=e108]: NexCarga Oficial /Dashboard Empresa      - navigation [ref=e109]:        - button "Início" [ref=e110] [cursor=pointer]        - button "Fretes" [ref=e111] [cursor=pointer]        - button "NexRadar" [ref=e112] [cursor=pointer]        - button "Planos" [ref=e113] [cursor=pointer]        - button "Referências ZIP" [ref=e114] [cursor=pointer]      - generic [ref=e115]:        - button "Instalar NexApp" [ref=e116]        - button "Alternar tema Dark ou White" [ref=e121] [cursor=pointer]    - main [ref=e125]:      - generic [ref=e126]:        - generic [ref=e127]        - generic [ref=e134]        - generic [ref=e168]        - generic [ref=e224]```### ResultTotal messages: 3 (Errors: 0, Warnings: 0)Returning 1 messages for level "info"[INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bc643ed6:15801Browser 'default' closed
+
+### Latest snapshot (.playwright-cli/page-2026-11-06T18-44-35-036Z.yml)
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]: Nex
+      - generic [ref=e13]: Carga
+      - superscript: ®
+    - generic [ref=e14]: OFICIAL
+  - generic [ref=e18]: Carregando ecossistema logístico NexCarga Oficial...
+```
+
+### Log (.playwright-cli/console-2026-11-06T18-44-34-034Z.log#L1-L1)
+```
+[     517ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bc643ed6:15801
+```
+Thought for 1 minute 20 seconds
+Used browser, took 2 screenshots
+trap 'playwright-cli close' EXIT playwright-cli open --browser=chromium http://localhost:3000 && \ playwright-cli resize 1440 900 && \ sleep 1 && \ playwright-cli click "button:has-text('Planos e Assinaturas')" && \ sleep 1 && \ playwright-cli screenshot --filename=.playwright-cli/r1-planos.png && \ playwright-cli select "select[aria-label='Alternar Perfil Ativo']" "user-transportador-1" && \ playwright-cli click "button:has-text('Dashboard Transportador')" && \ playwright-cli click "button[aria-label='Alternar tema Dark ou White']" && \ playwright-cli click "button:has-text('Tema White')" && \ sleep 1 && \ playwright-cli screenshot --filename=.playwright-cli/r1-carrier-white.png && \ playwright-cli click "button:has-text('Ver Detalhes')" && \ sleep 1 && \ playwright-cli snapshot --depth=5 && \ playwright-cli console
+### Browser `default` opened with pid 518.### Ran Playwright code```jsawait page.goto('http://localhost:3000');```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-46-09-649Z.yml)### Events- New console entries: .playwright-cli/console-2026-11-06T18-46-08-802Z.log#L1### Ran Playwright code```jsawait page.setViewportSize({ width: 1440, height: 900 });```### Ran Playwright code```jsawait page.locator('button:has-text(\'Planos e Assinaturas\')').click();```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-46-16-182Z.yml)### Result- [Screenshot of viewport](.playwright-cli/r1-planos.png)### Ran Playwright code```js// Screenshot viewport and save it as .playwright-cli/r1-planos.pngawait page.screenshot({  path: '.playwright-cli/r1-planos.png',  scale: 'css',  type: 'png'});```### Ran Playwright code```jsawait page.locator('select[aria-label=\'Alternar Perfil Ativo\']').selectOption('user-transportador-1');```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-46-19-388Z.yml)### Ran Playwright code```jsawait page.locator('button:has-text(\'Dashboard Transportador\')').click();```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-46-20-827Z.yml)### Ran Playwright code```jsawait page.locator('button[aria-label=\'Alternar tema Dark ou White\']').click();```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-46-22-224Z.yml)### Ran Playwright code```jsawait page.locator('button:has-text(\'Tema White\')').click();```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-46-24-109Z.yml)### Result- [Screenshot of viewport](.playwright-cli/r1-carrier-white.png)### Ran Playwright code```js// Screenshot viewport and save it as .playwright-cli/r1-carrier-white.pngawait page.screenshot({  path: '.playwright-cli/r1-carrier-white.png',  scale: 'css',  type: 'png'});```### ErrorError: Error: strict mode violation: locator('button:has-text(\'Ver Detalhes\')') resolved to 4 elements:    1) <button type="button" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#FF8A00] to-[#E85D04] text-white text-xs font-bold flex items-center gap-1.5 shadow-md shadow-[#FF8A00]/20 hover:opacity-95 transition-opacity whitespace-nowrap cursor-pointer">…</button> aka getByRole('button', { name: 'Ver Detalhes' }).first()    2) <button type="button" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#FF8A00] to-[#E85D04] text-white text-xs font-bold flex items-center gap-1.5 shadow-md shadow-[#FF8A00]/20 hover:opacity-95 transition-opacity whitespace-nowrap cursor-pointer">…</button> aka getByRole('button', { name: 'Ver Detalhes' }).nth(1)    3) <button type="button" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#FF8A00] to-[#E85D04] text-white text-xs font-bold flex items-center gap-1.5 shadow-md shadow-[#FF8A00]/20 hover:opacity-95 transition-opacity whitespace-nowrap cursor-pointer">…</button> aka getByRole('button', { name: 'Ver Detalhes' }).nth(2)    4) <button type="button" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-[#FF8A00] to-[#E85D04] text-white text-xs font-bold flex items-center gap-1.5 shadow-md shadow-[#FF8A00]/20 hover:opacity-95 transition-opacity whitespace-nowrap cursor-pointer">…</button> aka getByRole('button', { name: 'Ver Detalhes' }).nth(3)Call log:  - waiting for locator('button:has-text(\'Ver Detalhes\')')Browser 'default' closed
+
+### Latest snapshot (.playwright-cli/page-2026-11-06T18-46-24-109Z.yml)
+```yaml
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - button "Nex Carga ® OFICIAL" [ref=e7] [cursor=pointer]:
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]: Nex
+            - generic [ref=e16]: Carga
+            - superscript: ®
+          - generic [ref=e17]: OFICIAL
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]: TR
+          - generic [ref=e24]:
+            - generic [ref=e25]:
+              - generic [ref=e26]: Transportes Silva
+              - generic "Perfil Verificado na NexCarga — Documentos validados pela NexIA Verify" [ref=e27]
+            - generic [ref=e30]: Transportador Verificado
+        - generic [ref=e31]:
+          - generic [ref=e32]: "Alternar Perfil Ativo (Multi-Role RBAC):"
+          - combobox "Alternar Perfil Ativo" [ref=e33]:
+            - option "Construtora Alfa (EMPRESA)"
+            - option "Transportes Silva (TRANSPORTADORA)" [selected]
+            - option "Lucas Express Moto (MOTOBOY)"
+            - option "Camila NexPartner (AFILIADO)"
+            - option "NexControl Master (SUPER_ADMIN)"
+      - navigation "Menu Principal NexCarga" [ref=e34]:
+        - button "Dashboard Transportador" [ref=e499] [cursor=pointer]
+        - button "Carrossel & Institucional" [ref=e42] [cursor=pointer]
+        - button "NexRadar & NexCalc" [ref=e47] [cursor=pointer]
+        - button "NexMoto (Motoboy)" [ref=e52] [cursor=pointer]
+        - button "NexIA & NexVerify" [ref=e59] [cursor=pointer]
+        - button "Planos e Assinaturas" [ref=e64] [cursor=pointer]
+        - button "NexID & NexPartners" [ref=e68] [cursor=pointer]
+        - button "NexControl (Admin)" [ref=e74] [cursor=pointer]
+        - button "NexApp (PWA)" [ref=e78] [cursor=pointer]
+        - button "Login Exclusivo" [ref=e82] [cursor=pointer]
+    - generic [ref=e87]:
+      - generic [ref=e88]: NEXCARGA OFICIAL v1.0
+      - generic [ref=e89]: Desenvolvido por @pupa.labs
+      - generic [ref=e90]: Sua carga. Nossa conexão.
+  - generic [ref=e91]:
+    - banner [ref=e92]:
+      - generic [ref=e93]: NexCarga Oficial /Dashboard Transportador
+      - navigation [ref=e94]:
+        - button "Início" [ref=e95] [cursor=pointer]
+        - button "Fretes" [ref=e96] [cursor=pointer]
+        - button "NexRadar" [ref=e97] [cursor=pointer]
+        - button "Planos" [ref=e98] [cursor=pointer]
+        - button "Referências ZIP" [ref=e99] [cursor=pointer]
+      - generic [ref=e100]:
+        - button "Instalar NexApp" [ref=e101]
+        - button "Alternar tema Dark ou White" [ref=e106] [cursor=pointer]:
+          - generic [ref=e109]: Tema White
+    - main [ref=e110]:
+      - generic [ref=e500]:
+        - generic [ref=e501]:
+          - generic [ref=e502]:
+            - heading "Dashboard do Transportador" [level=1] [ref=e503]
+            - paragraph [ref=e504]: Encontre, negocie e gerencie seus fretes.
+          - button "Cadastrar Veículo / Implemento" [ref=e505] [cursor=pointer]
+        - generic [ref=e508]:
+          - generic [ref=e509]:
+            - generic [ref=e510]: Fretes disponíveis
+            - generic [ref=e517]: "217"
+          - generic [ref=e518]:
+            - generic [ref=e519]: Propostas enviadas
+            - generic [ref=e524]: "28"
+          - generic [ref=e525]:
+            - generic [ref=e526]: Em andamento
+            - generic [ref=e532]: "5"
+          - generic [ref=e533]:
+            - generic [ref=e534]: Concluídos
+            - generic [ref=e539]: "156"
+        - generic [ref=e540]:
+          - generic [ref=e541]:
+            - heading "Fretes recomendados para você" [level=2] [ref=e542]
+            - button "Ver todos" [ref=e543]
+          - generic [ref=e547]:
+            - generic [ref=e548]:
+              - generic [ref=e556]:
+                - generic [ref=e557]:
+                  - heading "Manhuaçu – BH" [level=3] [ref=e558]
+                  - generic "Perfil Verificado na NexCarga — Documentos validados pela NexIA Verify" [ref=e559]
+                  - generic [ref=e562]: · Construtora Alfa
+                - paragraph [ref=e563]: "Carga: Alimentos (18.000 kg) · Caminhão Truck (Baú)"
+                - generic [ref=e564]: Manhuaçu/MG → Belo Horizonte/MG (Endereço exato protegido até confirmação da taxa)
+              - generic [ref=e569]:
+                - generic [ref=e570]:
+                  - generic [ref=e571]: R$ 2.450,00
+                  - generic [ref=e572]: "292 km · Taxa 3%: R$ 73,50"
+                - button "Ver Detalhes" [ref=e573] [cursor=pointer]
+            - generic [ref=e577]:
+              - generic [ref=e585]:
+                - generic [ref=e586]:
+                  - heading "Manhuaçu – Vitória" [level=3] [ref=e587]
+                  - generic "Perfil Verificado na NexCarga — Documentos validados pela NexIA Verify" [ref=e588]
+                  - generic [ref=e591]: · Construtora Alfa
+                - paragraph [ref=e592]: "Carga: Materiais de construção (24.000 kg) · Carreta (Sider)"
+                - generic [ref=e593]: "Coleta liberada: Av. Tancredo Neves, 880, Pátio Central — Ponte da Aldeia, Manhuaçu/MG"
+              - generic [ref=e598]:
+                - generic [ref=e599]:
+                  - generic [ref=e600]: R$ 3.180,00
+                  - generic [ref=e601]: "238 km · Taxa 3%: R$ 95,40"
+                - button "Ver Detalhes" [ref=e602] [cursor=pointer]
+            - generic [ref=e606]:
+              - generic [ref=e614]:
+                - generic [ref=e615]:
+                  - heading "Manhuaçu – RJ" [level=3] [ref=e616]
+                  - generic "Perfil Verificado na NexCarga — Documentos validados pela NexIA Verify" [ref=e617]
+                  - generic [ref=e620]: · Construtora Alfa
+                - paragraph [ref=e621]: "Carga: Equipamentos (30.000 kg) · Carreta (Grade baixa)"
+                - generic [ref=e622]: Manhuaçu/MG → Rio de Janeiro/RJ (Endereço exato protegido até confirmação da taxa)
+              - generic [ref=e627]:
+                - generic [ref=e628]:
+                  - generic [ref=e629]: R$ 4.890,00
+                  - generic [ref=e630]: "415 km · Taxa 3%: R$ 146,70"
+                - button "Ver Detalhes" [ref=e631] [cursor=pointer]
+            - generic [ref=e635]:
+              - generic [ref=e643]:
+                - generic [ref=e644]:
+                  - heading "Manhuaçu – Governador Valadares" [level=3] [ref=e645]
+                  - generic "Perfil Verificado na NexCarga — Documentos validados pela NexIA Verify" [ref=e646]
+                  - generic [ref=e649]: · Construtora Alfa
+                - paragraph [ref=e650]: "Carga: Grãos (38.000 kg) · Bitrem (Bitrem graneleiro)"
+                - generic [ref=e651]: Manhuaçu/MG → Governador Valadares/MG (Endereço exato protegido até confirmação da taxa)
+              - generic [ref=e656]:
+                - generic [ref=e657]:
+                  - generic [ref=e658]: R$ 5.000,00
+                  - generic [ref=e659]: "198 km · Taxa 3%: R$ 150,00"
+                - button "Ver Detalhes" [ref=e660] [cursor=pointer]
+        - generic [ref=e664]:
+          - generic [ref=e666]:
+            - heading "Frota e Implementos Homologados (Desfoque Automático de Placa Ativo)" [level=2] [ref=e667]
+            - paragraph [ref=e668]: As placas originais ficam em armazenamento privado; na exibição pública aplica-se máscara e desfoque NexVerify.
+          - generic [ref=e669]:
+            - generic [ref=e670]:
+              - generic [ref=e671]:
+                - generic [ref=e672]:
+                  - generic [ref=e673]: Mercedes-Benz Actros 2651 6x4 (2025)
+                  - generic "Perfil Verificado na NexCarga — Documentos validados pela NexIA Verify" [ref=e674]
+                - generic [ref=e677]:
+                  - text: "Carreta · Implemento:"
+                  - strong [ref=e678]: Sider
+              - generic [ref=e679]:
+                - generic [ref=e680]:
+                  - text: "Placa Pública:"
+                  - strong [ref=e681]: RMA-•••9
+                - generic [ref=e682]: 33.0t
+            - generic [ref=e683]:
+              - generic [ref=e684]:
+                - generic [ref=e685]:
+                  - generic [ref=e686]: Volvo VM 290 6x2 (2024)
+                  - generic "Perfil Verificado na NexCarga — Documentos validados pela NexIA Verify" [ref=e687]
+                - generic [ref=e690]:
+                  - text: "Caminhão Truck · Implemento:"
+                  - strong [ref=e691]: Baú
+              - generic [ref=e692]:
+                - generic [ref=e693]:
+                  - text: "Placa Pública:"
+                  - strong [ref=e694]: QXY-•••2
+                - generic [ref=e695]: 14.0t
+            - generic [ref=e696]:
+              - generic [ref=e697]:
+                - generic [ref=e698]:
+                  - generic [ref=e699]: Honda CG 160 Cargo Com Baú 80L (2025)
+                  - generic "Perfil Verificado na NexCarga — Documentos validados pela NexIA Verify" [ref=e700]
+                - generic [ref=e703]:
+                  - text: "Moto · Implemento:"
+                  - strong [ref=e704]: Baú
+              - generic [ref=e705]:
+                - generic [ref=e706]:
+                  - text: "Placa Pública:"
+                  - strong [ref=e707]: HMN-•••5
+                - generic [ref=e708]: 0.0t
+```
+
+### Log (.playwright-cli/console-2026-11-06T18-46-08-802Z.log#L1-L1)
+```
+[     478ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bc643ed6:15801
+```
+Thought for 1 minute 10 seconds
+Edited 2 files
+src/components/RoleDashboards.tsx
+src/components/RoleDashboards.tsx
+Thought for 1 minute 36 seconds
+Ran command
+npx --yes tsx --test src/domain/rules.test.ts
+TAP version 13# Subtest: NexID username normalization and reserved word protectionok 1 - NexID username normalization and reserved word protection  ---  duration_ms: 1.650884  type: 'test'  ...# Subtest: Operational fee calculation: 6% standard (3% shipper / 3% carrier) on R$ 5.000,00ok 2 - Operational fee calculation: 6% standard (3% shipper / 3% carrier) on R$ 5.000,00  ---  duration_ms: 0.355179  type: 'test'  ...# Subtest: Privacy & address lock before and after operational fee confirmationok 3 - Privacy & address lock before and after operational fee confirmation  ---  duration_ms: 0.667474  type: 'test'  ...# Subtest: System NEX-0000 confirmation codes: generation, stage separation, and single-use enforcementok 4 - System NEX-0000 confirmation codes: generation, stage separation, and single-use enforcement  ---  duration_ms: 0.667722  type: 'test'  ...# Subtest: NexChat PII sanitization before fee paymentok 5 - NexChat PII sanitization before fee payment  ---  duration_ms: 0.814398  type: 'test'  ...# Subtest: NexCalc logistics cost calculationok 6 - NexCalc logistics cost calculation  ---  duration_ms: 0.412624  type: 'test'  ...# Subtest: NexScore bounds, plate masking, verified seal, and NexPartners anti-self-referralok 7 - NexScore bounds, plate masking, verified seal, and NexPartners anti-self-referral  ---  duration_ms: 0.496381  type: 'test'  ...1..7# tests 7# suites 0# pass 7# fail 0# cancelled 0# skipped 0# todo 0# duration_ms 447.508205
+Built
+Ran quality control
+Restarted dev server
+Thought for 1 minute 54 seconds
+Used browser, took 3 screenshots
+trap 'playwright-cli close' EXIT playwright-cli open --browser=chromium http://localhost:3000 && \ playwright-cli resize 1440 900 && \ sleep 1 && \ playwright-cli click "button[aria-label='Gerenciar Manhuaçu – BH']" && \ sleep 1 && \ playwright-cli click "button:has-text('Confirmar Webhook MP (Liberar Tudo)')" && \ sleep 1 && \ playwright-cli click "button:has-text('2. Confirmação NEX-0000')" && \ playwright-cli fill "input[aria-label='Código NEX de Coleta']" "NEX-4831" && \ playwright-cli click "button:has-text('Validar Coleta')" && \ sleep 1 && \ playwright-cli screenshot --filename=.playwright-cli/r2-nexcode-validated.png && \ playwright-cli click "button[aria-label='Fechar detalhes da operação']" && \ playwright-cli click "button:has-text('Carrossel & Institucional')" && \ sleep 1 && \ playwright-cli screenshot --filename=.playwright-cli/r2-carousel.png && \ playwright-cli resize 390 844 && \ playwright-cli click "button:has-text('Início')" || true && \ playwright-cli screenshot --filename=.playwright-cli/r2-mobile.png && \ playwright-cli console
+### Browser `default` opened with pid 878.### Ran Playwright code```jsawait page.goto('http://localhost:3000');```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-51-24-015Z.yml)### Events- New console entries: .playwright-cli/console-2026-11-06T18-51-23-242Z.log#L1### Ran Playwright code```jsawait page.setViewportSize({ width: 1440, height: 900 });```### Ran Playwright code```jsawait page.locator('button[aria-label=\'Gerenciar Manhuaçu – BH\']').click();```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-51-30-034Z.yml)### Ran Playwright code```jsawait page.locator('button:has-text(\'Confirmar Webhook MP (Liberar Tudo)\')').click();```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-51-32-898Z.yml)### Ran Playwright code```jsawait page.locator('button:has-text(\'2. Confirmação NEX-0000\')').click();```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-51-35-291Z.yml)### Ran Playwright code```jsawait page.locator('input[aria-label=\'Código NEX de Coleta\']').fill('NEX-4831');```### Ran Playwright code```jsawait page.locator('button:has-text(\'Validar Coleta\')').click();```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-51-37-907Z.yml)### Result- [Screenshot of viewport](.playwright-cli/r2-nexcode-validated.png)### Ran Playwright code```js// Screenshot viewport and save it as .playwright-cli/r2-nexcode-validated.pngawait page.screenshot({  path: '.playwright-cli/r2-nexcode-validated.png',  scale: 'css',  type: 'png'});```### Ran Playwright code```jsawait page.locator('button[aria-label=\'Fechar detalhes da operação\']').click();```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-51-41-732Z.yml)### Ran Playwright code```jsawait page.locator('button:has-text(\'Carrossel & Institucional\')').click();```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-51-43-610Z.yml)### Result- [Screenshot of viewport](.playwright-cli/r2-carousel.png)### Ran Playwright code```js// Screenshot viewport and save it as .playwright-cli/r2-carousel.pngawait page.screenshot({  path: '.playwright-cli/r2-carousel.png',  scale: 'css',  type: 'png'});```### Ran Playwright code```jsawait page.setViewportSize({ width: 390, height: 844 });```### ErrorTimeoutError: Timeout 20000ms exceeded.Call log:  - waiting for locator('button:has-text(\'Início\')')    - locator resolved to <button type="button" class="hover:text-[#FF8A00] transition-colors whitespace-nowrap cursor-pointer">Início</button>  - attempting click action    2 × waiting for element to be visible, enabled and stable      - element is not visible    - retrying click action    - waiting 20ms    2 × waiting for element to be visible, enabled and stable      - element is not visible    - retrying click action      - waiting 100ms    39 × waiting for element to be visible, enabled and stable       - element is not visible     - retrying click action       - waiting 500ms### Result- [Screenshot of viewport](.playwright-cli/r2-mobile.png)### Ran Playwright code```js// Screenshot viewport and save it as .playwright-cli/r2-mobile.pngawait page.screenshot({  path: '.playwright-cli/r2-mobile.png',  scale: 'css',  type: 'png'});```### ResultTotal messages: 3 (Errors: 0, Warnings: 0)Returning 1 messages for level "info"[INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=a56948e1:15801Browser 'default' closed
+
+### Latest snapshot (.playwright-cli/page-2026-11-06T18-51-43-610Z.yml)
+```yaml
+- generic [ref=e3]:
+  - complementary [ref=e19]:
+    - generic [ref=e20]:
+      - button "Nex Carga ® OFICIAL" [ref=e22] [cursor=pointer]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: Nex
+            - generic [ref=e31]: Carga
+            - superscript: ®
+          - generic [ref=e32]: OFICIAL
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: CO
+          - generic [ref=e39]:
+            - generic [ref=e40]:
+              - generic [ref=e41]: Construtora Alfa
+              - generic "Perfil Verificado na NexCarga — Documentos validados pela NexIA Verify" [ref=e42]
+            - generic [ref=e45]: Empresa Verificada
+        - generic [ref=e46]:
+          - generic [ref=e47]: "Alternar Perfil Ativo (Multi-Role RBAC):"
+          - combobox "Alternar Perfil Ativo" [ref=e48]:
+            - option "Construtora Alfa (EMPRESA)" [selected]
+            - option "Transportes Silva (TRANSPORTADORA)"
+            - option "Lucas Express Moto (MOTOBOY)"
+            - option "Camila NexPartner (AFILIADO)"
+            - option "NexControl Master (SUPER_ADMIN)"
+      - navigation "Menu Principal NexCarga" [ref=e49]:
+        - button "Dashboard Empresa" [ref=e50] [cursor=pointer]
+        - button "Carrossel & Institucional" [active] [ref=e57] [cursor=pointer]
+        - button "NexRadar & NexCalc" [ref=e62] [cursor=pointer]
+        - button "NexMoto (Motoboy)" [ref=e67] [cursor=pointer]
+        - button "NexIA & NexVerify" [ref=e74] [cursor=pointer]
+        - button "Planos e Assinaturas" [ref=e79] [cursor=pointer]
+        - button "NexID & NexPartners" [ref=e83] [cursor=pointer]
+        - button "NexControl (Admin)" [ref=e89] [cursor=pointer]
+        - button "NexApp (PWA)" [ref=e93] [cursor=pointer]
+        - button "Login Exclusivo" [ref=e97] [cursor=pointer]
+    - generic [ref=e102]:
+      - generic [ref=e103]: NEXCARGA OFICIAL v1.0
+      - generic [ref=e104]: Desenvolvido por @pupa.labs
+      - generic [ref=e105]: Sua carga. Nossa conexão.
+  - generic [ref=e106]:
+    - banner [ref=e107]:
+      - generic [ref=e108]: NexCarga Oficial /Carrossel & Institucional
+      - navigation [ref=e109]:
+        - button "Início" [ref=e110] [cursor=pointer]
+        - button "Fretes" [ref=e111] [cursor=pointer]
+        - button "NexRadar" [ref=e112] [cursor=pointer]
+        - button "Planos" [ref=e113] [cursor=pointer]
+        - button "Referências ZIP" [ref=e114] [cursor=pointer]
+      - generic [ref=e115]:
+        - button "Instalar NexApp" [ref=e116]
+        - button "Alternar tema Dark ou White" [ref=e121] [cursor=pointer]:
+          - generic [ref=e124]: Tema Dark
+    - main [ref=e125]:
+      - generic [ref=e450]:
+        - generic [ref=e451]:
+          - generic [ref=e452]:
+            - button "Slide anterior" [ref=e453] [cursor=pointer]
+            - generic [ref=e456] [cursor=pointer]:
+              - img "Conecte sua empresa" [ref=e457]
+              - generic [ref=e458]:
+                - generic [ref=e459]:
+                  - heading "Conecte sua empresa" [level=3] [ref=e460]
+                  - paragraph [ref=e461]: Publique fretes e encontre transportadores verificados em todo o Brasil.
+                - button "Acessar Dashboard Empresa" [ref=e462]
+            - generic [ref=e466] [cursor=pointer]:
+              - img "Sua carga. Nossa conexão." [ref=e467]
+              - generic [ref=e468]:
+                - generic [ref=e469]:
+                  - heading "Sua carga. Nossa conexão." [level=3] [ref=e470]
+                  - paragraph [ref=e471]: A plataforma que conecta empresas, transportadores e motoristas.
+                - button "Explorar Radar de Fretes" [ref=e472]
+            - generic [ref=e476] [cursor=pointer]:
+              - img "Mais oportunidades" [ref=e477]
+              - generic [ref=e478]:
+                - generic [ref=e479]:
+                  - heading "Mais oportunidades" [level=3] [ref=e480]
+                  - paragraph [ref=e481]: Encontre fretes, negocie diretamente e aumente seus ganhos.
+                - button "Acessar Painel Transportador" [ref=e482]
+            - button "Próximo slide" [ref=e486] [cursor=pointer]
+          - generic [ref=e489]:
+            - generic [ref=e490]:
+              - text: "Sede Inicial:"
+              - strong [ref=e491]: Manhuaçu, MG
+              - text: · Expansão Zona da Mata, Leste de Minas e Nacional
+            - generic [ref=e492]:
+              - button "Ir para slide 1" [ref=e493]
+              - button "Ir para slide 2" [ref=e494]
+              - button "Ir para slide 3" [ref=e495]
+              - button "Ir para slide 4" [ref=e496]
+            - button "Inspecionar Lâminas Originais dos Pacotes ZIP" [ref=e497]
+        - generic [ref=e502]:
+          - generic [ref=e503]:
+            - generic [ref=e504]:
+              - generic "Perfil Verificado na NexCarga — Documentos validados pela NexIA Verify" [ref=e505]
+              - generic [ref=e508]:
+                - heading "Perfil Verificado na NexCarga" [level=3] [ref=e509]
+                - paragraph [ref=e510]: O selo Verificado é exibido somente para usuários que tiveram seus dados e documentos validados pela NexIA Verify.
+            - generic [ref=e511]:
+              - generic [ref=e512]:
+                - generic [ref=e513]:
+                  - img "Transportes Silva" [ref=e514]
+                  - generic [ref=e515]:
+                    - generic [ref=e516]:
+                      - generic [ref=e517]: Transportes Silva
+                      - generic "Perfil Verificado na NexCarga — Documentos validados pela NexIA Verify" [ref=e518]
+                    - generic [ref=e521]: Transportador Verificado
+                - generic [ref=e522]: ✓ Conta Verificada
+              - generic [ref=e523]:
+                - generic [ref=e524]: ✓ Identidade validada
+                - generic [ref=e525]: ·
+                - generic [ref=e526]: ✓ Documentos verificados
+                - generic [ref=e527]: ·
+                - generic [ref=e528]: ✓ Veículos homologados
+          - generic [ref=e529]:
+            - generic [ref=e530]:
+              - generic [ref=e531]:
+                - generic [ref=e532]:
+                  - generic [ref=e533]: AI
+                  - heading "NexIA" [level=3] [ref=e534]
+                - paragraph [ref=e535]: Seu assistente inteligente para operações logísticas, cálculo de rentabilidade e busca assistida.
+              - button "Acessar NexIA" [ref=e536]
+            - generic [ref=e540]:
+              - generic [ref=e541]:
+                - heading "NexIA Verify" [level=3] [ref=e547]
+                - paragraph [ref=e548]: Verificação de documentos, link individual de vistoria e homologação com desfoque de placa.
+              - button "Verificar Agora" [ref=e549]
+```
+
+### Log (.playwright-cli/console-2026-11-06T18-51-23-242Z.log#L1-L1)
+```
+[     432ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=a56948e1:15801
+```
+Thought for 3 minutes 59 seconds
+Edited 1 file
+src/components/InstitutionalAndPlans.tsx
+Ran command
+npx --yes tsx --test src/domain/rules.test.ts
+TAP version 13# Subtest: NexID username normalization and reserved word protectionok 1 - NexID username normalization and reserved word protection  ---  duration_ms: 1.43363  type: 'test'  ...# Subtest: Operational fee calculation: 6% standard (3% shipper / 3% carrier) on R$ 5.000,00ok 2 - Operational fee calculation: 6% standard (3% shipper / 3% carrier) on R$ 5.000,00  ---  duration_ms: 0.325974  type: 'test'  ...# Subtest: Privacy & address lock before and after operational fee confirmationok 3 - Privacy & address lock before and after operational fee confirmation  ---  duration_ms: 0.759349  type: 'test'  ...# Subtest: System NEX-0000 confirmation codes: generation, stage separation, and single-use enforcementok 4 - System NEX-0000 confirmation codes: generation, stage separation, and single-use enforcement  ---  duration_ms: 0.625679  type: 'test'  ...# Subtest: NexChat PII sanitization before fee paymentok 5 - NexChat PII sanitization before fee payment  ---  duration_ms: 0.76729  type: 'test'  ...# Subtest: NexCalc logistics cost calculationok 6 - NexCalc logistics cost calculation  ---  duration_ms: 0.423546  type: 'test'  ...# Subtest: NexScore bounds, plate masking, verified seal, and NexPartners anti-self-referralok 7 - NexScore bounds, plate masking, verified seal, and NexPartners anti-self-referral  ---  duration_ms: 0.408552  type: 'test'  ...1..7# tests 7# suites 0# pass 7# fail 0# cancelled 0# skipped 0# todo 0# duration_ms 324.846145
+Built
+Ran quality control
+Restarted dev server
+Thought for 2 minutes 38 seconds
+Used browser, took 1 screenshot
+trap 'playwright-cli close' EXIT playwright-cli open --browser=chromium http://localhost:3000 && \ playwright-cli resize 1440 900 && \ sleep 1 && \ playwright-cli click "button:has-text('Carrossel & Institucional')" && \ sleep 1 && \ playwright-cli screenshot --filename=.playwright-cli/r2-carousel-clean.png && \ playwright-cli console
+### Browser `default` opened with pid 1288.### Ran Playwright code```jsawait page.goto('http://localhost:3000');```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-59-07-599Z.yml)### Events- New console entries: .playwright-cli/console-2026-11-06T18-59-06-713Z.log#L1### Ran Playwright code```jsawait page.setViewportSize({ width: 1440, height: 900 });```### Ran Playwright code```jsawait page.locator('button:has-text(\'Carrossel & Institucional\')').click();```### Page- Page URL: http://localhost:3000/- Page Title: NexCarga Oficial — Plataforma SaaS B2B LogTech### Snapshot- [Snapshot](.playwright-cli/page-2026-11-06T18-59-14-110Z.yml)### Result- [Screenshot of viewport](.playwright-cli/r2-carousel-clean.png)### Ran Playwright code```js// Screenshot viewport and save it as .playwright-cli/r2-carousel-clean.pngawait page.screenshot({  path: '.playwright-cli/r2-carousel-clean.png',  scale: 'css',  type: 'png'});```### ResultTotal messages: 3 (Errors: 0, Warnings: 0)Returning 1 messages for level "info"[INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=a56948e1:15801Browser 'default' closed
+
+### Latest snapshot (.playwright-cli/page-2026-11-06T18-59-14-110Z.yml)
+```yaml
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - button "Nex Carga ® OFICIAL" [ref=e7] [cursor=pointer]:
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]: Nex
+            - generic [ref=e16]: Carga
+            - superscript: ®
+          - generic [ref=e17]: OFICIAL
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]: CO
+          - generic [ref=e24]:
+            - generic [ref=e25]:
+              - generic [ref=e26]: Construtora Alfa
+              - generic "Perfil Verificado na NexCarga — Documentos validados pela NexIA Verify" [ref=e27]
+            - generic [ref=e30]: Empresa Verificada
+        - generic [ref=e31]:
+          - generic [ref=e32]: "Alternar Perfil Ativo (Multi-Role RBAC):"
+          - combobox "Alternar Perfil Ativo" [ref=e33]:
+            - option "Construtora Alfa (EMPRESA)" [selected]
+            - option "Transportes Silva (TRANSPORTADORA)"
+            - option "Lucas Express Moto (MOTOBOY)"
+            - option "Camila NexPartner (AFILIADO)"
+            - option "NexControl Master (SUPER_ADMIN)"
+      - navigation "Menu Principal NexCarga" [ref=e34]:
+        - button "Dashboard Empresa" [ref=e35] [cursor=pointer]
+        - button "Carrossel & Institucional" [active] [ref=e42] [cursor=pointer]
+        - button "NexRadar & NexCalc" [ref=e47] [cursor=pointer]
+        - button "NexMoto (Motoboy)" [ref=e52] [cursor=pointer]
+        - button "NexIA & NexVerify" [ref=e59] [cursor=pointer]
+        - button "Planos e Assinaturas" [ref=e64] [cursor=pointer]
+        - button "NexID & NexPartners" [ref=e68] [cursor=pointer]
+        - button "NexControl (Admin)" [ref=e74] [cursor=pointer]
+        - button "NexApp (PWA)" [ref=e78] [cursor=pointer]
+        - button "Login Exclusivo" [ref=e82] [cursor=pointer]
+    - generic [ref=e87]:
+      - generic [ref=e88]: NEXCARGA OFICIAL v1.0
+      - generic [ref=e89]: Desenvolvido por @pupa.labs
+      - generic [ref=e90]: Sua carga. Nossa conexão.
+  - generic [ref=e91]:
+    - banner [ref=e92]:
+      - generic [ref=e93]: NexCarga Oficial /Carrossel & Institucional
+      - navigation [ref=e94]:
+        - button "Início" [ref=e95] [cursor=pointer]
+        - button "Fretes" [ref=e96] [cursor=pointer]
+        - button "NexRadar" [ref=e97] [cursor=pointer]
+        - button "Planos" [ref=e98] [cursor=pointer]
+        - button "Referências ZIP" [ref=e99] [cursor=pointer]
+      - generic [ref=e100]:
+        - button "Instalar NexApp" [ref=e101]
+        - button "Alternar tema Dark ou White" [ref=e106] [cursor=pointer]:
+          - generic [ref=e109]: Tema Dark
+    - main [ref=e110]:
+      - generic [ref=e334]:
+        - generic [ref=e335]:
+          - generic [ref=e336]:
+            - generic [ref=e337] [cursor=pointer]:
+              - generic [ref=e338]:
+                - img "Conecte sua empresa" [ref=e339]
+                - generic [ref=e340]:
+                  - heading "Conecte sua empresa" [level=3] [ref=e341]
+                  - paragraph [ref=e342]: Publique fretes e encontre transportadores verificados em todo o Brasil.
+              - button "Acessar Dashboard Empresa" [ref=e344]
+            - generic [ref=e348] [cursor=pointer]:
+              - generic [ref=e349]:
+                - img "Sua carga. Nossa conexão." [ref=e350]
+                - generic [ref=e351]:
+                  - heading "Sua carga. Nossa conexão." [level=3] [ref=e352]
+                  - paragraph [ref=e353]: A plataforma que conecta empresas, transportadores e motoristas.
+              - button "Explorar Radar de Fretes" [ref=e355]
+            - generic [ref=e359] [cursor=pointer]:
+              - generic [ref=e360]:
+                - img "Mais oportunidades" [ref=e361]
+                - generic [ref=e362]:
+                  - heading "Mais oportunidades" [level=3] [ref=e363]
+                  - paragraph [ref=e364]: Encontre fretes, negocie diretamente e aumente seus ganhos.
+              - button "Acessar Painel Transportador" [ref=e366]
+          - generic [ref=e370]:
+            - generic [ref=e371]:
+              - text: "Sede Inicial:"
+              - strong [ref=e372]: Manhuaçu, MG
+              - text: · Expansão Zona da Mata, Leste de Minas e Nacional
+            - generic [ref=e373]:
+              - button "Slide anterior" [ref=e374] [cursor=pointer]
+              - generic [ref=e377]:
+                - button "Ir para slide 1" [ref=e378]
+                - button "Ir para slide 2" [ref=e379]
+                - button "Ir para slide 3" [ref=e380]
+                - button "Ir para slide 4" [ref=e381]
+              - button "Próximo slide" [ref=e382] [cursor=pointer]
+            - button "Inspecionar Lâminas Originais dos Pacotes ZIP" [ref=e385]
+        - generic [ref=e390]:
+          - generic [ref=e391]:
+            - generic [ref=e392]:
+              - generic "Perfil Verificado na NexCarga — Documentos validados pela NexIA Verify" [ref=e393]
+              - generic [ref=e396]:
+                - heading "Perfil Verificado na NexCarga" [level=3] [ref=e397]
+                - paragraph [ref=e398]: O selo Verificado é exibido somente para usuários que tiveram seus dados e documentos validados pela NexIA Verify.
+            - generic [ref=e399]:
+              - generic [ref=e400]:
+                - generic [ref=e401]:
+                  - img "Transportes Silva" [ref=e402]
+                  - generic [ref=e403]:
+                    - generic [ref=e404]:
+                      - generic [ref=e405]: Transportes Silva
+                      - generic "Perfil Verificado na NexCarga — Documentos validados pela NexIA Verify" [ref=e406]
+                    - generic [ref=e409]: Transportador Verificado
+                - generic [ref=e410]: ✓ Conta Verificada
+              - generic [ref=e411]:
+                - generic [ref=e412]: ✓ Identidade validada
+                - generic [ref=e413]: ·
+                - generic [ref=e414]: ✓ Documentos verificados
+                - generic [ref=e415]: ·
+                - generic [ref=e416]: ✓ Veículos homologados
+          - generic [ref=e417]:
+            - generic [ref=e418]:
+              - generic [ref=e419]:
+                - generic [ref=e420]:
+                  - generic [ref=e421]: AI
+                  - heading "NexIA" [level=3] [ref=e422]
+                - paragraph [ref=e423]: Seu assistente inteligente para operações logísticas, cálculo de rentabilidade e busca assistida.
+              - button "Acessar NexIA" [ref=e424]
+            - generic [ref=e428]:
+              - generic [ref=e429]:
+                - heading "NexIA Verify" [level=3] [ref=e435]
+                - paragraph [ref=e436]: Verificação de documentos, link individual de vistoria e homologação com desfoque de placa.
+              - button "Verificar Agora" [ref=e437]
+```
+
+### Log (.playwright-cli/console-2026-11-06T18-59-06-713Z.log#L1-L1)
+```
+[     466ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=a56948e1:15801
+```
+A plataforma NEXCARGA OFICIAL (SaaS B2B LogTech — Pupa Labs) foi arquitetada, implementada, testada e verificada em navegador real, integrando os dois pacotes visuais oficiais (nexcarga_assinatura_carrossel_pack e nexcarga_white_dark_design_pack), o motor de regras de negócio no backend Express + TypeScript e a estrutura relacional versionada para Supabase PostgreSQL.
+1. Arquivos Criados e Modificados
+Banco de Dados e Arquitetura:
+/supabase/migrations/0001_nexcarga_schema_and_rls.sql: Migration versionada contendo as 40 tabelas oficiais (users, profiles, roles, user_roles, organizations, organization_members, subscriptions, plans, coupons, promotions, freights, freight_addresses, freight_proposals, freight_contracts, freight_status_history, freight_confirmation_codes, vehicles, implements, vehicle_Categories, implement_categories, cargo_categories, driver_documents, company_documents, vehicle_documents, verification_requests, verification_reviews, chats, chat_messages, notifications, operational_fees, payments, payment_proofs, affiliates, affiliate_referrals, affiliate_commissions, ratings, nexscore_history, nexpontos_ledger, system_settings, audit_logs) e políticas Row Level Security (RLS).
+/ARCHITECTURE.md: Documentação técnica da arquitetura, segurança, RBAC e fluxos operacionais.
+Domínio, Catálogos e Testes Unitários:
+/src/domain/catalogs.ts: Catálogo logístico brasileiro completo com 13 categorias de veículos, 25 categorias de implementos e 24 categorias de carga (com exigências documentais como MOPP, ANTT, SIF/ANVISA, AET/DNIT e GTA/MAPA).
+/src/domain/rules.ts: Regras de negócio puras e desacopladas (validação de NexID, cálculo de taxa operacional de 6,00% — 3,00% contratante + 3,00% transportador — e isenções administrativas, redação de endereço/contato no backend antes do pagamento da taxa, geração e validação de códigos NEX-0000 de uso único para Coleta e Entrega, sanitização de telefone/e-mail no NexChat, motor de custos NexCalc, cálculo de NexScore 0–1000, mascaramento de placa e comissões NexPartners de 1,75%).
+/src/domain/rules.test.ts: Suíte de testes unitários automatizados (node:test).
+Backend e Persistência:
+/src/server/store.ts: Repositório persistente no backend (.data/nexcarga-db.json) inicializado com operações reais da região de Manhuaçu-MG (Construtora Alfa, Transportes Silva, Lucas Express Moto, Camila NexPartner e NexControl Master).
+/server.ts: Servidor Express + Vite com RBAC, sanitização de dados sensíveis no próprio servidor e integração com @google/genai (gemini-3.8-flash) para NexIA e NexIA Verify.
+Frontend, Design System (Dark & White) e PWA:
+/public/assets/nexcarga/carrossel/* e /public/assets/nexcarga/design/*: Todos os 14 arquivos PNG originais extraídos dos pacotes anexados e utilizados diretamente na plataforma.
+/src/components/BrandElements.tsx: Logomarca NexCarga, Selo Azul Verificado (restrito a verification_status === 'VERIFICADO'), Seletor de Aparência (Dark #111111/#292929 e White #FFFFFF com destaque #FF8A00/#E85D04) e visualizador das 14 telas oficiais de referência.
+/src/components/RoleDashboards.tsx: Dashboards independentes por perfil (EMBARCADOR/EMPRESA, TRANSPORTADORA/MOTORISTA/AUTONOMO, MOTOBOY, AFILIADO e SUPER_ADMIN/ADMIN), incluindo o painel de confirmação NEX-0000 e desbloqueio de endereço.
+/src/components/OperationsWorkspace.tsx: Marketplace de Fretes, NexRadar (NEXGRID) georreferenciado, Catálogo de Veículos e Implementos (com proteção/desfoque automático de placa na visualização pública), NexMoto (controlado pela chave global NEXMOTO_STATUS), NexChat (com bloqueio de contatos antes da taxa) e Comprovantes da Operação (payment_proofs).
+/src/components/GovernanceAndAI.tsx: NexVerify (geração de link individual /vistoria/:token para celular e fila de homologação), NexID (/u/:username), NexPartners, NexCalc, NexIA e NexControl (gestão global de taxas, isenções, NEXMOTO_STATUS, planos, liberação administrativa auditada e audit_logs).
+/src/components/InstitutionalAndPlans.tsx: Login exclusivo em tela dividida, Planos e Assinaturas (Mensal R$ 79,90, Trimestral R$ 164,70, Anual R$ 540,00 com 15 dias grátis e cupom MANHUACU15), Carrossel Institucional com os 5 slides oficiais e NexApp PWA (/app).
+2. Endpoints REST Implementados (/server.ts)
+GET /api/bootstrap — Carrega estado autenticado e aplica redação automática de endereços e contatos no backend quando a taxa operacional (6,00%) ainda não está CONFIRMADA ou ISENTA.
+POST /api/auth/login e POST /api/auth/register — Autenticação multi-role e criação de conta com NexID normalizado.
+PATCH /api/profile/theme — Persiste a preferência de tema (dark ou white) na conta do usuário.
+GET /api/nexid/:username e PATCH /api/nexid/update — Perfil público /u/:username, validação de nomes reservados e histórico de alterações.
+POST /api/freights, POST /api/freights/:freightId/proposals, POST /api/proposals/:proposalId/accept — Publicação de fretes, envio de propostas/contra-propostas e fechamento de contrato com geração da taxa operacional e códigos NEX-0000.
+POST /api/freights/:freightId/confirm-fee — Confirmação da taxa operacional (por parte ou integral), liberando endereço completo, contatos e códigos NEX-0000 com registro em audit_logs.
+POST /api/freights/:freightId/validate-nex-code — Validação de uso único dos códigos de Coleta (AGUARDANDO_COLETA → EM_TRANSITO) e Entrega (EM_TRANSITO → ENTREGUE), mais contingência administrativa justificada.
+GET /api/chats/:freightId/messages e POST /api/chats/:freightId/messages — Chat operacional com filtro de PII (telefones/e-mails) antes da confirmação da taxa.
+POST /api/nexmoto/jobs e POST /api/nexmoto/jobs/:jobId/accept — Coleta e entrega urbana por motoboys, validando o interruptor global NEXMOTO_STATUS.
+POST /api/nexverify/generate-link, GET /api/nexverify/token/:token, POST /api/nexverify/submit/:token, POST /api/nexverify/:id/decision — Fluxo completo de vistoria por link individual e aprovação documental com concessão do selo azul verificado.
+POST /api/vehicles e POST /api/payment-proofs — Cadastro de veículos com desfoque de placa pública e envio de comprovantes financeiros entre as partes.
+POST /api/nexcalc e POST /api/nexia/chat — Calculadora de custos logísticos (combustível, pedágio, custo/km, taxa NexCarga e lucro líquido) e assistente NexIA com Gemini.
+PATCH /api/nexcontrol/settings, POST /api/nexcontrol/exempt-fee, POST /api/nexcontrol/coupons — Governança administrativa e auditoria.
+3. Testes Executados e Verificação Real
+Testes Unitários de Regras de Negócio (node:test):
+Comando executado: npx --yes tsx --test src/domain/rules.test.ts
+Resultado: 7 de 7 suítes aprovadas (exit code 0) cobrindo:
+Normalização e bloqueio de usernames reservados no NexID.
+Cálculo da taxa operacional de 6,00% (3% contratante + 3% transportador) e isenções.
+Redação obrigatória de endereços e telefones no backend antes da confirmação da taxa e desbloqueio após confirmação.
+Validação de códigos NEX-0000 (bloqueio de código invertido entre coleta/entrega, bloqueio de reutilização e transição de status).
+Sanitização de telefones e e-mails no NexChat antes do pagamento da taxa.
+Cálculo de margem líquida no NexCalc e limites do NexScore (0–1000).
+Mascaramento público de placa veicular e cálculo de comissão de afiliado (1,75%).
+Compilação e Tipagem (compile_applet & lint_applet):
+Build de produção Vite + TypeScript concluído sem erros (0 errors).
+Verificação Visual e Funcional em Navegador Real (playwright-cli):
+Testado em Desktop (1440x900) e Mobile (390x844) com 0 erros de console e 0 erros de página:
+Alternância em tempo real entre Tema Dark e Tema White persistida no perfil.
+Troca de perfil entre Empresa Contratante (Construtora Alfa), Transportadora (Transportes Silva) e Super Admin (NexControl Master).
+Teste ponta a ponta do desbloqueio de endereço: confirmação da taxa operacional no frete Cimento Estrutural CP-II (32 Ton) liberando os endereços completos de coleta e entrega e revelando os códigos NEX-4831 e NEX-9204.
+Teste ponta a ponta da validação do código NEX-4831 pelo painel da transportadora, alterando o status do frete de AGUARDANDO_COLETA para EM_TRANSITO.
+Inspeção visual da página de Planos e Assinaturas e do Carrossel Institucional sem sobreposição de elementos.
+4. Status de Entrega (Transparência Técnica)
+Implementado, Testado e Validado:
+Identidade visual Dark/White fiel aos 14 designs anexados, RBAC multi-role, catálogos brasileiros (13 veículos, 25 implementos, 24 cargas), proteção de endereço/contato no backend antes da taxa, sistema NEX-0000 de uso único, NexVerify com link /vistoria/:token e desfoque de placa, NexMoto com chave global, NexChat, NexCalc, NexID, NexScore/NexPontos, NexPartners, NexControl com audit_logs, PWA e migration SQL completa com 40 tabelas e RLS.
+Dependente de Credenciais Externas (Configuráveis via .env):
+Conexão direta com instância remota do Supabase (SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_SERVICE_ROLE_KEY) para aplicar /supabase/migrations/0001_nexcarga_schema_and_rls.sql em produção (no ambiente atual, o backend opera com persistência local transacional em .data/nexcarga-db.json).
+Chave MERCADOPAGO_ACCESS_TOKEN para liquidação de webhooks reais em produção e GOOGLE_MAPS_API_KEY caso deseje substituir o radar vetorial interativo NEXGRID pelo SDK satelital ao vivo.
+NEXCARGA — Sua carga. Nossa conexão.
+Projeto desenvolvido por @pupa.labs
+NEXCARGA OFICIAL — LOGTECH BRASILEIRA.
 Checkpoint
